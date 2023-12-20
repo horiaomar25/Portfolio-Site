@@ -2,6 +2,7 @@ import ProfilePicture from "../assets/picture.jpg";
 
 
 
+
 const HeroSection = () => {
 
   return (
@@ -17,7 +18,12 @@ const HeroSection = () => {
           School of Code graduate<br />
           Hard-working<br />
           Keen to learn<br />
-          Self-motivated
+          Self-motivated<br />
+
+          <button className="social_links">Github</button>
+          <button className="social_links">Linkedin</button>
+
+          
         </p>
 
       <img
