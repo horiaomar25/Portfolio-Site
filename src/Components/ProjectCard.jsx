@@ -5,7 +5,7 @@ const ProjectCard = () => {
     <section >
          <h3 style={{ marginLeft:'50px', fontSize: '24px'}}>Projects</h3>
     <div className="container">
-    <div className= "project_container">
+    <div className= "project_container column">
    
     
         <p className="hero_text">   
@@ -45,7 +45,7 @@ const ProjectCard = () => {
         
 
     </div>
-    <div className="video_container">
+    <div className="video_container column ">
     <p className="hero_text">   
         <h2 >BootCamp Kitchen Video</h2>
           School of Code graduate<br />
@@ -55,6 +55,17 @@ const ProjectCard = () => {
           <button className="social_links">Demo</button>
           <button className="social_links">Repo</button>
         </p>
+
+        <p className="hero_text">   
+        <h2 >EduTask Video</h2>
+          School of Code graduate<br />
+          Hard-working<br />
+          Keen to learn<br />
+          Self-motivated<br/>
+          <button className="social_links">Demo</button>
+          <button className="social_links">Repo</button>
+        </p>
+
 
 
         </div>

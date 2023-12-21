@@ -140,23 +140,21 @@ font-size: large;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    border: 10px solid #0ab153;
+       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     
   }
 
 .video_container{
- 
   display: flex;
   justify-content: center;
-align-items: center;
-border: 10px solid #1E90FF;
-width: 100%;
+  align-items: center;
+  padding: 0 30px;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 auto; /* Added to horizontally center the container */
 
 
- 
-  
-  
- 
 
   }
 
@@ -165,15 +163,23 @@ width: 100%;
 
   .project_container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+     justify-content: center;
+    align-items: flex-start;
     padding: 0 30px;
-    height: 50vh;
-  /*border*/
+    height: 100%;
+    flex-direction: column; 
+
   
   
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
     margin: 0 auto; /* Added to horizontally center the container */
+  }
+
+  .column {
+    flex: 1;
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding in width calculation */
+    
   }
 
 @media (max-width: 390px) {
