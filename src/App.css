@@ -42,15 +42,16 @@
   display: none;
 }
 
-a {
+.nav_style{
   text-decoration: none;
   color: black;
   font-size: 16px;
   font-weight: bolder;
 font-size: large;
+
 }
 
-a:hover {
+.nav_style:hover {
   color: white;
   background-color: #1E90FF; 
   border-radius: 10px;
@@ -120,19 +121,39 @@ font-size: large;
   background-color: #1E90FF; 
   border-radius: 10px;
   width: 100px;
+
   padding: 8px;
 font-weight: bolder;
 font-size: large;
   margin: 20px;
+  text-align: center;  
+ 
+  background-color: #1E90FF; 
+  color: black;
   
 }
 
-.social_links:hover{
+.social_links a:hover {
+  text-decoration: none;
+  background-color: #1E90FF; 
+  color: black;
   background-color: #1E90FF; 
   border-radius: 10px;
   width: 100px;
   padding: 8px;
   color: white;
+}
+
+
+
+.social_links a{
+  background-color: #1E90FF; 
+  border-radius: 10px;
+  width: 100px;
+  padding: 8px;
+  color: black;
+  text-decoration: none;
+
 }
 
 .container{

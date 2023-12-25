@@ -10,9 +10,9 @@ const Navigation = () => {
         <nav
         className= 'nav'
         >
-          <a href="#">About</a>
-          <a href="#">Skills</a>
-          <a href="#">Projects</a>
+          <a  className="nav_style" href="#">About</a>
+          <a className="nav_style" href="#">Skills</a>
+          <a className="nav_style" href="#">Projects</a>
         </nav>
     
       
