@@ -15,8 +15,8 @@ const HeroSection = () => {
             <br />
             Self-motivated
             <br />
-            <button className="social_links">Github</button>
-            <button className="social_links">Linkedin</button>
+            <button className="social_links"><a  href="https://github.com/horiaomar25" target="blank">Github</a></button>
+            <button className="social_links"><a  href="https://www.linkedin.com/in/horia-omar" target="blank">Linkedin</a></button>
           </p>
 
           <img
