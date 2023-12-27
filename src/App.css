@@ -2,7 +2,7 @@
 * {
   font-family: "Poppins";
   overflow-x: hidden;
-  background-color:#edf2fb;
+  background-color: #edf2fb;
 }
 
 .header {
@@ -38,71 +38,67 @@
   margin-top: 5px;
 }
 
-.mobile_nav {
+.mobile_nav_icon {
   display: none;
 }
 
-.nav_style{
+.nav_style {
   text-decoration: none;
   color: black;
   font-size: 16px;
   font-weight: bolder;
-font-size: large;
-
+  font-size: large;
 }
 
 .nav_style:hover {
   color: white;
-  background-color: #1E90FF; 
+  background-color: #1e90ff;
   border-radius: 10px;
   width: 100px;
   padding: 5px;
   text-align: center;
   font-weight: bolder;
-font-size: large;
-  
+  font-size: large;
 }
 
 /* Container styles */
 .hero_container,
- .project_container {
+.project_container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
   height: 50vh;
-/*border*/
+  /*border*/
   width: 95%;
-  
 
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   margin: 0 auto; /* Added to horizontally center the container */
 }
 
-.aboutme_container{
+.aboutme_container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 0 30px;
   height: 50vh;
-/*border*/
+  /*border*/
   width: 95%;
 
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   margin: 0 auto; /* Added to horizontally center the container */
   border: 0.5px solid black;
-
 }
 
 /* Text styles */
-.hero_text  {
-  width: 30%;
+.hero_text {
+  width: 50%;
   height: 70%;
   line-height: 1.5;
   text-align: center;
   padding: 10px;
   margin: 10px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
 }
 
 .aboutme_text {
@@ -113,60 +109,55 @@ font-size: large;
   padding: 10px;
   margin: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  float: right;
 }
 
-
-
-.social_links{
+.social_links button {
   background: none;
-  background-color: #1E90FF; 
+  background-color: #1e90ff;
   border-radius: 10px;
-  width: 100px;
+  width: 200px;
 
   padding: 10px;
-font-weight: bolder;
-font-size: large;
+  font-weight: bolder;
+  font-size: large;
   margin: 20px;
-  text-align: center;  
- 
-  background-color: #1E90FF; 
+  text-align: center;
+
+  background-color: #1e90ff;
   color: black;
   
 }
 
-.social_links a:hover {
+.social_links button:hover {
   text-decoration: none;
-  background-color: #1E90FF; 
+  background-color: #edf2fb;
   color: black;
-  background-color: #1E90FF; 
+
   border-radius: 10px;
-  width: 100px;
-  padding: 8px;
-  color: white;
+
+  color: black;
+  text-align: center;
 }
 
-
-
-.social_links a{
-  background-color: #1E90FF; 
+.social_links a {
+  background-color: #1e90ff;
   border-radius: 10px;
-  width: 100px;
-  padding: 8px;
-  color: black;
-  text-decoration: none;
 
+  color: pink;
+  text-decoration: none;
+  text-align: center;
 }
 
-.container{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:row;
-       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    
-  }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
 
-.video_container{
+.video_container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -175,62 +166,97 @@ font-size: large;
   width: 100%;
   flex-direction: column;
   margin: 0 auto; /* Added to horizontally center the container */
+}
+
+.project_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 30px;
+  height: 100%;
+
+  margin: 0 auto; /* Added to horizontally center the container */
+}
+
+.mobile-nav__list {
+  display: none;
+}
 
 
-
-  }
-
-  
-
-
-  .project_container{
-    display: flex;
-     justify-content: center;
-    align-items: flex-start;
-    padding: 0 30px;
-    height: 100%;
-   
-
-  
-  
-
-    margin: 0 auto; /* Added to horizontally center the container */
-  }
-
- 
 
 @media (max-width: 390px) {
   .nav {
     display: none;
   }
 
- .nav_style{
+  .nav_style {
     display: none;
+  }
+
+  .mobile_nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-nav__item {
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    margin-right: 70px;
+    margin-bottom: 10px;
+   
+    background-color: black;
+  }
+
+  .mobile-nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    /* background-color: black; */
+    background-color: black;
+  }
+
+  .mobile-nav__link {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
   }
 
   .hero_container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
+    justify-content: center;
+    border: 1px solid black;
+    width: 80%;
   }
 
   .hero_image {
-    width: 60%;
+    width: 100%;
     border-radius: 50%;
     margin: 20px;
+    border: 2px solid black;
   }
 
-  .mobile_nav {
+  .mobile_nav_icon {
     display: flex;
     margin-top: 10px;
-    width: 100%;
+    width: 15%;
   }
 
   .hero_text {
-    width: 100%;
-    height: 100%;
-    margin: 10px;
-    padding: 10px;
+    width: 90%;
+    height: 70%;
+    margin: 20px auto;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   }
 
@@ -241,28 +267,28 @@ font-size: large;
     justify-content: center;
   }
 
-  .container{
-    display:flex;
+  .container {
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:column;
-       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    
+    flex-direction: column;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
 
-  .project_container{
-    display:flex;
+  .project_container {
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction:column;
-       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-       width: 70%;
-   
-
-  
-  
+    flex-direction: column;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 80%;
 
     margin: 0 auto; /* Added to horizontally center the container */
   }
 
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
