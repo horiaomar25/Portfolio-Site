@@ -1,7 +1,7 @@
 import icon from "../assets/html.png";
 import CssIcon from "../assets/CSS.png";
 import JavascriptIcon from "../assets/javascript.png";
-import PostgreSQL from "../assets/postgresql.png";
+import PostgreIcon from "../assets/postgresql.png";
 import vitestIcon from "../assets/vitest.png";
 import nextIcon from "../assets/Next.png";
 import reactIcon from "../assets/react.png";
@@ -22,7 +22,7 @@ const Skills = () => {
             <img src={JavascriptIcon} width={100} alt={"JavaScript"} />
           </div>
           <div className="img_container">
-            <img src={PostgreSQL} width={100} alt={"PostgreSQL"} />
+            <img src={PostgreIcon} width={100} alt={"PostgreSQL"} />
             <img src={vitestIcon} width={100} style={{ marginTop: "15px"}} alt={"Vitest Icon"} />
             <img src={nextIcon} width={90} style={{ marginTop: "20px"}} alt={"Next Icon"} />
           </div>
