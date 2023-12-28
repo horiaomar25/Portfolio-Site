@@ -21,6 +21,7 @@ const Skills = () => {
             <img src={CssIcon} width={70} alt={"css"} />
             <img src={JavascriptIcon} width={100} alt={"JavaScript"} />
           </div>
+          
           <div className="img_container">
             <img src={PostgreIcon} width={100} alt={"PostgreSQL"} />
             <img src={vitestIcon} width={100} style={{ marginTop: "15px"}} alt={"Vitest Icon"} />

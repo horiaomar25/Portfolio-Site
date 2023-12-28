@@ -1,4 +1,5 @@
-import React from 'react'
+
+import { Link } from 'react-router-dom';
 
 const MobileNav = () => {
   return (
@@ -6,13 +7,22 @@ const MobileNav = () => {
         <div className="mobile-nav__content">
             <ul className="mobile-nav__list">
             <li className="mobile-nav__item">
-                <a href="#about" className="mobile-nav__link">About</a>
+            <Link to="/" className="mobile-nav__link">Home
+        </Link>
+                
             </li>
             <li className="mobile-nav__item">
-                <a href="#projects" className="mobile-nav__link">Projects</a>
+            <Link to="/about" className="mobile-nav__link">About
+        </Link>
+               
             </li>
             <li className="mobile-nav__item">
-                <a href="#contact" className="mobile-nav__link">Contact</a>
+            <Link to="/skills" className="mobile-nav__link">Skills
+        </Link>
+            </li>
+            <li className="mobile-nav__item">
+            <Link to="/projects" className="mobile-nav__link">Projects
+        </Link>
             </li>
             </ul>
         </div>

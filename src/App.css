@@ -3,6 +3,8 @@
   font-family: "Poppins";
   overflow-x: hidden;
   background-color: #edf2fb;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -15,14 +17,12 @@
   padding-bottom: 20px;
   padding-right: 300px;
   padding: 20px;
-
   padding-right: 185px;
   font-size: 25px;
 }
 
 .nav {
   background: rgba(255, 255, 255, 0.2);
-
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -456,11 +456,11 @@
 
   .mobile-nav__item {
     margin-top: 10px;
-    width: 80%;
+   
     text-align: center;
     margin-right: 70px;
     margin-bottom: 10px;
-   
+   overflow: hidden;
     background-color: black;
   }
 
@@ -481,9 +481,10 @@
     color: white;
     font-size: large;
     font-weight: bolder;
-    width: 100%;
+
     padding: 10px;
     background-color: black;
+    overflow: hidden;
   }
 
   .hero_container {
@@ -513,7 +514,8 @@
     width: 90%;
     height: 70%;
     margin: 20px auto;
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+   
   }
 
   section {
@@ -539,12 +541,13 @@
     flex-direction: column;
     /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
     width: 80%;
+   
 
-    margin: 0 auto; /* Added to horizontally center the container */
+    margin: 0 auto; 
   }
 
   iframe {
-    width: 100%;
+    width: 60%;
     height: 100%;
   }
 
@@ -553,20 +556,23 @@
     margin:0 auto;
   }
 
-  .img_container {
+ 
+ 
+
+  .skills_container{
+   padding: 10px;
+   border: '1px solid black';
+  }
+
+  .img_container{
+    width: 100%;
+    height: 100%;
+    margin: 0 ;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px; 
-    width: 100%;
-
-  }
-
-  .skills_container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; 
-   width: 100%;
+    justify-content: center;
+    padding: 30px;
   }
   
 }
