@@ -1,5 +1,6 @@
 import MenuIcon from "../assets/nav-icon.png";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 import MobileNav from "./MobileNav";
 
@@ -18,9 +19,18 @@ const Navigation = () => {
         <nav
         className= 'nav'
         >
-          <a  className="nav_style" href="#">About</a>
-          <a className="nav_style" href="#">Skills</a>
-          <a className="nav_style" href="#">Projects</a>
+          <Link to="/" className="nav_style">
+      Home
+        </Link>
+       <Link to="/about" className="nav_style">
+          About
+        </Link>
+        <Link to="/skills" className="nav_style">
+          Skills
+        </Link>
+        <Link to="/projects" className="nav_style">
+          Projects
+        </Link>
         </nav>
     
       
