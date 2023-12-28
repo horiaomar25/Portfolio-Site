@@ -24,7 +24,7 @@ const ProjectCard = () => {
           <p> In a group of 6, we built a mortgage tool for those looking to remortage and new buyers. This was heavily focused on user needs. </p>
           <iframe width="390" height="315" src="https://www.youtube.com/embed/MBCGeILfhXQ?si=Gotn4s6PqkS1extl&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <a className="social_links" href="https://land-logic-app-frontend.vercel.app/" target="blank"><button className="social_links">Demo</button></a>
-          <a className="social_links" href="https://land-logic-app-frontend.vercel.app/" target="blank"><button className="social_links">Repo</button></a>
+          <a className="social_links" href="https://github.com/MartiZu/LendLogic-app" target="blank"><button className="social_links">Repo</button></a>
         </p>
 
       
