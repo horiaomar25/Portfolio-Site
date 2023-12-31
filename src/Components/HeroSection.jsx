@@ -9,8 +9,7 @@ const HeroSection = () => {
         <div className="hero_container">
           <p className="hero_text">
             <h1>FullStack Developer</h1>
-            School of Code graduate
-            <br />
+           
             Hard-working
             <br />
             Keen to learn

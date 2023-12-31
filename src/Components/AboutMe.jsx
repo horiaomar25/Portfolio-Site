@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 
 
-const AboutMe = ({ innerRef }) => {
+const AboutMe = () => {
 
  
   return (
     <>
-      <section ref={innerRef}>
+      <section >
     
         <div className="aboutme_container">   
       

@@ -68,12 +68,10 @@
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 50vh;
+  /* height: 50vh; */
   /*border*/
   width: 95%;
-
-  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-  margin: 0 auto; /* Added to horizontally center the container */
+  margin-top: 20px;
 }
 
 .aboutme_container, .skills_container {
@@ -99,16 +97,16 @@
   text-align: center;
   padding: 10px;
   margin: 10px;
-  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+ 
 }
 
 .aboutme_text {
   width: 60%;
   height: 70%;
-  line-height: 1.5;
+  line-height: 1.7;
 
   padding: 10px;
-  margin: 10px;
+  margin: 20px;
   /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
   float: right;
   overflow: hidden;
@@ -178,6 +176,21 @@
   height: 100%;
 
   margin: 0 auto; /* Added to horizontally center the container */
+}
+
+.card{
+  width: 70%;
+  height: 70%;
+  line-height: 1.5;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.card p{
+  margin: 10px;
 }
 
 .mobile-nav__list {
@@ -547,7 +560,7 @@
   }
 
   iframe {
-    width: 60%;
+    width: 80%;
     height: 100%;
   }
 
@@ -573,6 +586,10 @@
     align-items: center;
     justify-content: center;
     padding: 30px;
+  }
+
+  .card{
+    width: 100%;
   }
   
 }
