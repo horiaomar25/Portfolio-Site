@@ -1,42 +1,159 @@
-import icon from "../assets/html.png";
-import CssIcon from "../assets/CSS.png";
-import JavascriptIcon from "../assets/javascript.png";
-import PostgreIcon from "../assets/PostgreSQL.png";
 import vitestIcon from "../assets/vitest.png";
-import nextIcon from "../assets/Next.png";
-import reactIcon from "../assets/react.png";
-import githubIcon from "../assets/github.png";
-import tailwindIcon from "../assets/tailwind.png";
-import typescriptIcon from "../assets/typescript.png";
-import materialUIIcon from "../assets/materialUI.png";
+
 const Skills = () => {
   return (
     <>
-      <section>
-       <h3 style={{ marginLeft: "50px", fontSize: "24px" }}>Skills</h3>
-        <div className="skills_container"> 
-        
-          <div className="img_container">
-            <img src={icon} width={100} alt={"html"} />
-            <img src={CssIcon} width={70} alt={"css"} />
-            <img src={JavascriptIcon} width={100} alt={"JavaScript"} />
+      <section
+        id="skills"
+        className="flex justify-center items-center w-auto px-30 p-6   flex-col"
+      >
+        <h2 className="text-2xl ml-5   overflow-hidden">Skills</h2>
+
+        <div className="flex flex-row m-5 sm:flex-col">
+          <div className="flex flex-col items-center mr-10">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              className="w-20"
+            />
+            <i>HTML</i>
           </div>
+          <div className="flex flex-col items-center mr-10 mb-2">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              className="w-20"
+            />
+            <i>CSS</i>
+          </div>
+
+          <div className="flex flex-col items-center mr-10 sm:flex-col">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              className="w-20"
+            />
+            <i>Javascript</i>
+          </div>
+          <div className="flex flex-col items-center mr-10">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              className="w-20"
+            />
+            <i>React</i>
+          </div>
+          <div className="flex flex-col items-center mr-10">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+              className="w-20"
+            />
+            <i>NextJS</i>
+          </div>
+
+          <div className="flex flex-col items-center mr-10">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+              className="w-20"
+            />
+            <i>TypeScript</i>
+          </div>
+
+          <div className="flex flex-col items-center mr-10 justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+              className="w-20 ml-3"
+            />
+            <i>PostgreSQl</i>
+          </div>
+
+          <div className="flex flex-col items-center mr-10 justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+              className="w-20"
+            />
+            <i>Node</i>
+          </div>
+
+          <div className="flex flex-col items-center mr-10 justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+              className="w-20"
+            />
+            <i>Express</i>
+          </div>
+          <div className="flex flex-col items-center mr-10 justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+              className="w-20 ml-2"
+            />
+            <i>Jest</i>
+          </div>
+
+          <div className="flex flex-col items-center mr-10 justify-center">
+            <img src={vitestIcon} className="w-20 " />
+            <i>Vitest</i>
+          </div>
+        </div>
+        {/*<----------------------------------------------SOFT SKILLS ------------------------------------------------>*/}
+
+        <div className="flex flex-col  justify-center items-center   sm:flex-col sm:m-0">
+          <div className="flex flex-row   justify-center items-center ">
+            <img
+              src="https://img.freepik.com/free-vector/agile-method-concept-illustration_114360-9906.jpg?w=1380&t=st=1704227095~exp=1704227695~hmac=914a2e3abe1acee23100cd517d081edd0f86651fdec3e85ee7e6aedbe77ff87d"
+              alt="illustrastration"
+              width={500}
+              className=" mr-10  sm:w-11/12 sm:m-0"
+            />
+
+            <p className="w-1/3  m-8 p-2  leading-loose">
+              {" "}
+              <h4 className=" text-2xl overflow-hidden ">Agile </h4>I have
+              worked in an Agile enviroment where our team had daily stand ups
+              and retrospectives. I was also able to lead some of our many daily
+              retrospectives and standups to see learn about our team's
+              reflections and tasks. It is really important aspect of any team
+              to not only support each other but work effciently together.
+            </p>
+          </div>
+
+          <div className="flex flex-row  p-4 justify-center items-center ">
+            <img
+              src="https://img.freepik.com/free-vector/ui-ux-team-concept-illustration_114360-11223.jpg?w=1380&t=st=1704385270~exp=1704385870~hmac=e53de651916e75abb23a03254c3d29a814bba015e7856771af4f054a24c73cf3"
+              alt="debugging"
+              width={500}
+              className=" mr-10  sm:w-11/12 sm:m-0"
+            />
+
+            <p className="w-1/3 mb-4 leading-loose">
+              {" "}
+              <h4 className=" text-2xl overflow-hidden ">
+                Teamwork and Empathy
+              </h4>
+              An important aspect to any team working together is make sure
+              everyone feels they are in a safe working space. During my group
+              projects, it was important to encourage my teammates to celebrate
+              our successes, but also learn from our mistakes as a group. I made
+              it a point to praise my teammates when they were able to figure
+              out a solution to the roadblocks we faced during our projects.
+              
+            </p> 
           
-          <div className="img_container">
-            <img src={PostgreIcon} width={100} alt={"PostgreSQL"} />
-            <img src={vitestIcon} width={100} style={{ marginTop: "15px"}} alt={"Vitest Icon"} />
-            <img src={nextIcon} width={90} style={{ marginTop: "20px"}} alt={"Next Icon"} />
           </div>
 
-          <div className="img_container">
-            <img src={reactIcon} width={100} alt={"React Icon"} />
-            <img src={githubIcon} width={100} style={{ marginTop: "50px", marginBottom:'20px'}} alt={"Github Icon"} />
-            <img src={tailwindIcon} width={100} style={{ marginTop: "30px"}} alt={"Tailwind Icon"} />
-          </div>
+          <div className="flex flex-row   justify-center items-center ">
+            <img
+              src="https://img.freepik.com/free-vector/design-team-concept-illustration_114360-4271.jpg?w=826&t=st=1704385987~exp=1704386587~hmac=3b200dee9ba9693df4f51d887f5961f0587bfbab4aa655fd7a9b6a0e4569a1f5"
+              alt="debugging"
+              width={500}
+              className=" mr-10  sm:w-11/12 sm:m-0"
+            />
 
-          <div className="img_container">
-            <img src={typescriptIcon} width={80} style={{ marginTop: "30px"}}  alt={"Typescript Icon"} />
-            <img src={materialUIIcon} width={100} style={{ marginBottom: "120px", marginTop: "50px"}}  alt={"Material UI Icon"} />
+            <p className="w-1/3 mb-4 leading-loose">
+              {" "}
+              <h4 className=" text-2xl overflow-hidden ">Problem Solving</h4>
+              In one of my group projects, I was able to help my teamates with
+              their gaps in knowledge particularly when it came to dealing with
+              server-side components. I had practise with it beforehand due to
+              building my own project using Next JS. It helped the team project move forward
+              in being able to fetch the data we needed to.
+            </p>
           </div>
         </div>
       </section>
