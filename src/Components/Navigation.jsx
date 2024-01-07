@@ -32,12 +32,12 @@ const Navigation = () => {
               alt="menu"
               width={40}
               height={40}
-              className="lg:hidden cursor-pointer"
+              className="lg:hidden cursor-pointer "
             />
           </div>
 
           <nav
-            className=" sm:hidden lg:flex font-poppins text-lg justify-center items-center p-5 m-0"
+            className="sm:hidden  lg:flex font-poppins text-lg justify-center items-center p-5 m-0"
           >
             <Link
               smooth

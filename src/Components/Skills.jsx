@@ -93,7 +93,7 @@ const Skills = () => {
         </div>
         {/*<----------------------------------------------SOFT SKILLS ------------------------------------------------>*/}
 
-        <div className="flex flex-col  justify-center items-center  sm:flex sm:justify-center sm:items-center sm:flex-col sm:border sm:w-full">
+        <div className="flex flex-col  justify-center items-center  sm:flex sm:justify-center sm:items-center sm:flex-col  sm:w-full">
           <div className="flex flex-row   justify-center items-center sm:flex-col ">
             <img
               src="https://img.freepik.com/free-vector/agile-method-concept-illustration_114360-9906.jpg?w=1380&t=st=1704227095~exp=1704227695~hmac=914a2e3abe1acee23100cd517d081edd0f86651fdec3e85ee7e6aedbe77ff87d"

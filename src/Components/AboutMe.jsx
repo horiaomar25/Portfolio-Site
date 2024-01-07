@@ -8,7 +8,7 @@ const AboutMe = () => {
         className="flex justify-center items-center w-auto px-30 p-6 border-top flex-col"
       >
         <div className="flex justify-start  px-30 p-6 m-4 sm:flex-col sm:w-full  ">
-          <div className="overflow-hidden  w-11/12 m-2  sm:w-full sm:m-0 sm:border sm:p-5 ">
+          <div className="overflow-hidden  w-11/12 m-2  sm:w-full sm:m-0  sm:p-5 ">
             <h2 className="text-2xl mb-2 overflow-hidden">About Me</h2>
             <p className=" leading-loose sm: w-full">
               I am a Junior Full Stack Developer with a background in education.

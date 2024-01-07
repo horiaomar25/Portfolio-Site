@@ -8,8 +8,8 @@ const Projects = () => {
         <h2 className="text-2xl mb-2 overflow-hidden">Projects</h2>
 
         {/* First Project */}
-        <div className="flex flex-row  justify-start p-6 border-b-2  sm:flex-col sm:w-full">
-          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0 sm:border sm:p-5">
+        <div className="flex flex-row  justify-start p-6 border-b-2  sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full">
+          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0 sm:p-0">
             <h2 className="text-2xl mb-2 overflow-hidden text-center">
               EduTask{" "}
             </h2>
@@ -45,7 +45,7 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className=" flex flex-col w-1/2  mt-6 px-30 p-4 m-4 sm:w-full">
+          <div className=" flex flex-col w-1/2  mt-6 px-30 p-4 m-4 sm:w-full  sm:flex sm:justify-center sm:items-center">
             <iframe
               width="600"
               height="415"
@@ -83,8 +83,8 @@ const Projects = () => {
         </div>
 
         {/* Second Project */}
-        <div className="flex flex-row m-4 justify-start p-6 border-b-2   sm:flex-col sm:w-full">
-          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0 sm:border sm:p-5">
+        <div className="flex flex-row m-4 justify-start p-6 border-b-2 sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full">
+          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0  sm:p-5">
             <h2 className="text-2xl mb-2 text-center overflow-hidden">
               LendLogic
             </h2>
@@ -112,7 +112,7 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className=" flex flex-col w-1/2  mt-6 px-30 p-4 m-4 sm:w-full">
+          <div className=" flex flex-col w-1/2  mt-6 px-30 p-4 m-4 sm:w-full  sm:flex sm:justify-center sm:items-center">
             <iframe
               width="600"
               height="415"
@@ -148,12 +148,12 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="flex flex-row m-4 justify-start p-6  border-b-2  sm:flex-col sm:w-full">
-          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0 sm:border ">
+        <div className="flex flex-row m-4 justify-start p-6  border-b-2  sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full ">
+          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0  sm:p-5 ">
             <h2 className="text-2xl mb-2 text-center overflow-hidden">
               Bootcamp Kitchen
             </h2>
-            <p className="leading-loose sm:w-full">
+            <p className="leading-loose sm:w-full ">
               In a group of 6, we built a application that provide quick 15
               minutes recipies that are nutrient to make the most of your
               lunchtime.This was built using HTML, CSS and Javascript. It has
@@ -179,7 +179,7 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className=" flex flex-col mt-6 px-30 p-4 m-4 sm:flex-col sm:w-full">
+          <div className=" flex flex-col mt-6 px-30 p-4 m-4 sm:w-full  sm:flex sm:justify-center sm:items-center">
             <iframe
               width="600"
               height="415"
