@@ -45,7 +45,7 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className=" flex flex-col w-1/2  mt-6 px-30 p-4 m-4 ">
+          <div className=" flex flex-col w-1/2  mt-6 px-30 p-4 m-4 sm:w-full">
             <iframe
               width="600"
               height="415"
@@ -54,26 +54,27 @@ const Projects = () => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
+             
             ></iframe>
 
-            <div className="flex flex-wrap  mt-4 m- 10items-center justify-center ">
+            <div className="flex flex-wrap  mt-4 items-center justify-center ">
               <a
-                className="bg-turquoise p-3 rounded-xl border-black  text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow"
+                className="bg-turquoise p-3 rounded-xl border-black  text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow sm:border sm:m-4"
                 href="https://edu-task-horias-projects-dc29575b.vercel.app/"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer" 
               >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
+                <button className="w-52 rounded-xl font-bold  m-0 p-0">
                   Demo
                 </button>
               </a>
               <a
-                className="bg-turquoise p-3 rounded-xl border-black  font-poppins hover:bg-light-gray shadow-nav-shadow"
+                className="bg-turquoise p-3 rounded-xl border-black  font-poppins hover:bg-light-gray shadow-nav-shadow sm:border sm:m-4"
                 href="https://github.com/horiaomar25/edu-task"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
+                <button className="w-52 rounded-xl font-bold  sm:text-center  ">
                   Repo
                 </button>
               </a>
@@ -111,7 +112,7 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className=" flex flex-col mt-6 px-30 p-4 m-4">
+          <div className=" flex flex-col w-1/2  mt-6 px-30 p-4 m-4 sm:w-full">
             <iframe
               width="600"
               height="415"
@@ -122,24 +123,24 @@ const Projects = () => {
               allowfullscreen
             ></iframe>
 
-            <div className="flex flex-wrap  mt-4 m-4 items-center justify-center">
+            <div className="flex flex-wrap  mt-4 items-center justify-center ">
               <a
-                className="bg-turquoise p-3 rounded-xl border-black  text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow"
+                 className="bg-turquoise p-3 rounded-xl border-black  text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow sm:border sm:m-4"
                 href="https://land-logic-app-frontend.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
+                <button className="w-52 rounded-xl font-bold  m-0 p-0">
                   Demo
                 </button>
               </a>
               <a
-                className="bg-turquoise p-3 rounded-xl border-black  font-poppins hover:bg-light-gray shadow-nav-shadow"
+                className="bg-turquoise p-3 rounded-xl border-black  font-poppins hover:bg-light-gray shadow-nav-shadow sm:border"
                 href="https://github.com/MartiZu/LendLogic-app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
+                <button className="w-52 rounded-xl font-bold  m-0 p-0 ">
                   Repo
                 </button>
               </a>
@@ -148,7 +149,7 @@ const Projects = () => {
         </div>
 
         <div className="flex flex-row m-4 justify-start p-6  border-b-2  sm:flex-col sm:w-full">
-          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0 sm:border sm:p-5">
+          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0 sm:border ">
             <h2 className="text-2xl mb-2 text-center overflow-hidden">
               Bootcamp Kitchen
             </h2>
@@ -178,7 +179,7 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className=" flex flex-col mt-6 px-30 p-4 m-4">
+          <div className=" flex flex-col mt-6 px-30 p-4 m-4 sm:flex-col sm:w-full">
             <iframe
               width="600"
               height="415"
@@ -189,24 +190,24 @@ const Projects = () => {
               allowfullscreen
             ></iframe>
 
-            <div className="flex flex-wrap  mt-4 m-4 items-center justify-center">
+            <div className="flex flex-wrap  mt-4 items-center justify-center ">
               <a
-                className="bg-turquoise p-3 rounded-xl border-black border text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow"
+                className="bg-turquoise p-3 rounded-xl border-black  text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow sm:border sm:m-4"
                 href="https://bc15-w8-project-front-end-fully-stacked.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
+                <button   className="w-52 rounded-xl font-bold  m-0 p-0">
                   Demo
                 </button>
               </a>
               <a
-                className="bg-turquoise p-3 rounded-xl border-black border font-poppins hover:bg-light-gray shadow-nav-shadow"
+               className="bg-turquoise p-3 rounded-xl border-black  font-poppins hover:bg-light-gray shadow-nav-shadow sm:border sm:m-4"
                 href="https://github.com/horiaomar25/bc15-w8-project-fully-stacked-bootcamp-kitchen"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
+                <button className="w-52 rounded-xl font-bold  sm:text-center  ">
                   Repo
                 </button>
               </a>

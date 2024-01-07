@@ -5,19 +5,19 @@ const Skills = () => {
     <>
       <section
         id="skills"
-        className="flex justify-center items-center w-auto px-30 p-6   flex-col"
+        className="flex justify-center items-center w-auto px-30 p-6 flex-col sm:w-full sm:items-center sm:justify-center  "
       >
         <h2 className="text-2xl ml-5   overflow-hidden">Skills</h2>
 
-        <div className="flex flex-row m-5 sm:flex-col">
-          <div className="flex flex-col items-center mr-10">
+        <div className="flex flex-row m-5  sm:flex  sm:flex-col  ">
+          <div className="flex flex-col items-center mr-10 sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
               className="w-20"
             />
             <i>HTML</i>
           </div>
-          <div className="flex flex-col items-center mr-10 mb-2">
+          <div className="flex flex-col items-center mr-10 mb-2 sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
               className="w-20"
@@ -25,21 +25,21 @@ const Skills = () => {
             <i>CSS</i>
           </div>
 
-          <div className="flex flex-col items-center mr-10 sm:flex-col">
+          <div className="flex flex-col items-center mr-10 sm:flex-col sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               className="w-20"
             />
             <i>Javascript</i>
           </div>
-          <div className="flex flex-col items-center mr-10">
+          <div className="flex flex-col items-center mr-10 sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
               className="w-20"
             />
             <i>React</i>
           </div>
-          <div className="flex flex-col items-center mr-10">
+          <div className="flex flex-col items-center mr-10 sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
               className="w-20"
@@ -47,7 +47,7 @@ const Skills = () => {
             <i>NextJS</i>
           </div>
 
-          <div className="flex flex-col items-center mr-10">
+          <div className="flex flex-col items-center mr-10 sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
               className="w-20"
@@ -55,7 +55,7 @@ const Skills = () => {
             <i>TypeScript</i>
           </div>
 
-          <div className="flex flex-col items-center mr-10 justify-center">
+          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
               className="w-20 ml-3"
@@ -63,7 +63,7 @@ const Skills = () => {
             <i>PostgreSQl</i>
           </div>
 
-          <div className="flex flex-col items-center mr-10 justify-center">
+          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
               className="w-20"
@@ -71,14 +71,14 @@ const Skills = () => {
             <i>Node</i>
           </div>
 
-          <div className="flex flex-col items-center mr-10 justify-center">
+          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
               className="w-20"
             />
             <i>Express</i>
           </div>
-          <div className="flex flex-col items-center mr-10 justify-center">
+          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
               className="w-20 ml-2"
@@ -86,15 +86,15 @@ const Skills = () => {
             <i>Jest</i>
           </div>
 
-          <div className="flex flex-col items-center mr-10 justify-center">
+          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
             <img src={vitestIcon} className="w-20 " />
             <i>Vitest</i>
           </div>
         </div>
         {/*<----------------------------------------------SOFT SKILLS ------------------------------------------------>*/}
 
-        <div className="flex flex-col  justify-center items-center   sm:flex-col sm:m-0">
-          <div className="flex flex-row   justify-center items-center ">
+        <div className="flex flex-col  justify-center items-center  sm:flex sm:justify-center sm:items-center sm:flex-col sm:border sm:w-full">
+          <div className="flex flex-row   justify-center items-center sm:flex-col ">
             <img
               src="https://img.freepik.com/free-vector/agile-method-concept-illustration_114360-9906.jpg?w=1380&t=st=1704227095~exp=1704227695~hmac=914a2e3abe1acee23100cd517d081edd0f86651fdec3e85ee7e6aedbe77ff87d"
               alt="illustrastration"
@@ -102,7 +102,7 @@ const Skills = () => {
               className=" mr-10  sm:w-11/12 sm:m-0"
             />
 
-            <p className="w-1/3  m-8 p-2  leading-loose">
+            <p className="w-1/3  m-8 p-2  leading-loose sm:w-full">
               {" "}
               <h4 className=" text-2xl overflow-hidden ">Agile </h4>I have
               worked in an Agile enviroment where our team had daily stand ups
@@ -113,7 +113,7 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className="flex flex-row  p-4 justify-center items-center ">
+          <div className="flex flex-row   justify-center items-center sm:flex-col ">
             <img
               src="https://img.freepik.com/free-vector/ui-ux-team-concept-illustration_114360-11223.jpg?w=1380&t=st=1704385270~exp=1704385870~hmac=e53de651916e75abb23a03254c3d29a814bba015e7856771af4f054a24c73cf3"
               alt="debugging"
@@ -121,7 +121,7 @@ const Skills = () => {
               className=" mr-10  sm:w-11/12 sm:m-0"
             />
 
-            <p className="w-1/3 mb-4 leading-loose">
+            <p className="w-1/3  m-8 p-2  leading-loose sm:w-full">
               {" "}
               <h4 className=" text-2xl overflow-hidden ">
                 Teamwork and Empathy
@@ -137,7 +137,7 @@ const Skills = () => {
           
           </div>
 
-          <div className="flex flex-row   justify-center items-center ">
+          <div className="flex flex-row   justify-center items-center sm:flex-col ">
             <img
               src="https://img.freepik.com/free-vector/design-team-concept-illustration_114360-4271.jpg?w=826&t=st=1704385987~exp=1704386587~hmac=3b200dee9ba9693df4f51d887f5961f0587bfbab4aa655fd7a9b6a0e4569a1f5"
               alt="debugging"
@@ -145,7 +145,7 @@ const Skills = () => {
               className=" mr-10  sm:w-11/12 sm:m-0"
             />
 
-            <p className="w-1/3 mb-4 leading-loose">
+            <p className="w-1/3  m-8 p-2  leading-loose sm:w-full">
               {" "}
               <h4 className=" text-2xl overflow-hidden ">Problem Solving</h4>
               In one of my group projects, I was able to help my teamates with

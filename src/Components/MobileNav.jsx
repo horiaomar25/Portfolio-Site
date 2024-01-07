@@ -1,33 +1,31 @@
-
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from "react-router-hash-link";
 
 const MobileNav = () => {
   return (
-    <div className="mobile_nav">
-        <div className="mobile-nav__content">
-            <ul className="mobile-nav__list">
-            <li className="mobile-nav__item">
-            <Link to="/" className="mobile-nav__link">Home
-        </Link>
-                
-            </li>
-            <li className="mobile-nav__item">
-            <Link to="/about" className="mobile-nav__link">About
-        </Link>
-               
-            </li>
-            <li className="mobile-nav__item">
-            <Link to="/skills" className="mobile-nav__link">Skills
-        </Link>
-            </li>
-            <li className="mobile-nav__item">
-            <Link to="/projects" className="mobile-nav__link">Projects
-        </Link>
-            </li>
-            </ul>
-        </div>
-    </div>
-  )
-}
+    <nav className="sm:flex sm:flex-col sm:w-full sm:items-center sm:justify-center sm:text-center sm:text-xl sm:overflow-hidden sm:mt-4 sm:shadow-nav-shadow">
+      <Link
+        smooth
+        to="#about"
+        className="block mb-2 hover:bg-light-turquoise hover:rounded-lg hover:underline  sm:overflow-hidden"
+      >
+        About
+      </Link>
+      <Link
+        smooth
+        to="#skills"
+        className="block mb-2 hover:bg-light-turquoise hover:rounded-lg hover:underline sm:overflow-hidden"
+      >
+        Skills
+      </Link>
+      <Link
+        smooth
+        to="#projects"
+        className="block mb-2 hover:bg-light-turquoise hover:rounded-lg hover:underline sm:overflow-hidden"
+      >
+        Projects
+      </Link>
+    </nav>
+  );
+};
 
-export default MobileNav
+export default MobileNav;

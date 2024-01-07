@@ -37,9 +37,7 @@ const Navigation = () => {
           </div>
 
           <nav
-            className={`${
-              nav ? 'block' : 'hidden'
-            } lg:flex font-poppins text-lg justify-center items-center p-5 m-0`}
+            className=" sm:hidden lg:flex font-poppins text-lg justify-center items-center p-5 m-0"
           >
             <Link
               smooth
@@ -63,8 +61,8 @@ const Navigation = () => {
               Projects
             </Link>
           </nav>
-        </header> {/* Mobile Navigation */}
-      {nav && <MobileNav onClose={() => setNav(false)} />}
+        </header> 
+        {nav && <MobileNav onClose={() => setNav(false)} />}
       </BrowserRouter>
 
      
