@@ -3,7 +3,7 @@ const Projects = () => {
     <>
       <section
         id="projects"
-        className="flex justify-center items-center w-auto px-30 p-6 flex-col md:flex md:border md:flex-col"
+        className="flex justify-center items-center w-auto px-30 p-6 flex-col md:flex  md:flex-col md:w-auto"
       >
         <h2 className="text-2xl mb-2 overflow-hidden">Projects</h2>
 
@@ -13,7 +13,7 @@ const Projects = () => {
             <h2 className="text-2xl mb-2 overflow-hidden text-center">
               EduTask{" "}
             </h2>
-            <p className="leading-loose sm:w-full md:w-11/12  ">
+            <p className="leading-loose sm:w-full   ">
               This is a task management tool for teaching assistants to keep
               track of their daily and weekly tasks during a school week. This
               was built using NextJS and MaterialUI.
@@ -22,7 +22,7 @@ const Projects = () => {
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               Problem to be solved
             </h2>
-            <p className="leading-loose sm:w-full md:w-11/12 ">
+            <p className="leading-loose sm:w-full md:w-full ">
               I'm former teaching assistant in early years. It was many
               different areas of learning to tackle and to make sure are to get
               done. Many schools that I have worked at mostly deal with paper
@@ -34,7 +34,7 @@ const Projects = () => {
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               What's the solution?
             </h2>
-            <p className="leading-loose sm:w-full md:w-11/12 ">
+            <p className="leading-loose sm:w-full  ">
               This is where EduTask comes in. It creates a online platform for
               teaching assistant particularly in early years to store their
               daily and weekly tasks. In this way, supply staff can also acccess
@@ -54,11 +54,11 @@ const Projects = () => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            
+            className="md:w-300"
              
             ></iframe>
 
-            <div className="flex flex-wrap  mt-4 items-center justify-center md:flex md:mt-8 ">
+            <div className="flex flex-wrap  mt-4 items-center justify-center md:mt-8 md:flex md:flex-col">
               <a
                 className="bg-turquoise p-3 rounded-xl border-black  text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow sm:border sm:m-4 md:border md:m-4"
                 href="https://edu-task-horias-projects-dc29575b.vercel.app/"
@@ -84,12 +84,12 @@ const Projects = () => {
         </div>
 
         {/* Second Project */}
-        <div className="flex flex-row m-4 justify-start p-6 border-b-2 sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full md:flex md:flex-col md:justfy-center md:items-center">
-          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0  sm:p-5 md:w-11/12">
+        <div className="flex flex-row  justify-start p-6 border-b-2  sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full md:flex md:flex-col md:justfy-center md:items-center">
+          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0  sm:p-5 md:w-11/12 ">
             <h2 className="text-2xl mb-2 text-center overflow-hidden">
               LendLogic
             </h2>
-            <p className="leading-loose sm:w-full md:w-11/12 ">
+            <p className="leading-loose sm:w-1/2 md:w-11/12 ">
               In a group of 6, we built a mortgage tool for those looking to
               remortage and new buyers. This was heavily focused on user needs.This was built with NextJS, Tailwind and testing was done with Jest and Cypress.
             </p>
