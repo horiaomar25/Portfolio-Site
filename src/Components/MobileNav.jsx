@@ -2,7 +2,9 @@ import { HashLink as Link } from "react-router-hash-link";
 
 const MobileNav = () => {
   return (
-    <nav className="sm:flex sm:flex-col sm:w-full sm:items-center sm:justify-center sm:text-center sm:text-xl sm:overflow-hidden sm:mt-4 sm:shadow-nav-shadow">
+    <nav className="sm:flex sm:flex-col sm:w-full sm:items-center sm:justify-center sm:text-center sm:text-xl sm:overflow-hidden sm:mt-4 sm:shadow-nav-shadow
+    
+    md:flex md:flex-col md:w-full md:items-center md:justify-center md:text-center md:text-xl md:overflow-hidden md:mt-4 md:shadow-nav-shadow">
       <Link
         smooth
         to="#about"

@@ -15,8 +15,8 @@ const Navigation = () => {
   return (
     <>
       <BrowserRouter>
-        <header className="flex shadow-nav-shadow">
-          <div className="flex items-center justify-between w-full lg:w-auto px-4 py-3">
+        <header className="flex shadow-nav-shadow sm:flex sm:flex-col">
+          <div className="flex items-center justify-between w-full sm:w-auto lg:w-auto px-4 py-3">
             <div className="flex justify-start lg:mr-96">
               <img
                 src="https://see.fontimg.com/api/renderfont4/0W2DR/eyJyIjoiZnMiLCJoIjoxMzAsInciOjIwMDAsImZzIjo2NSwiZmdjIjoiIzAwMDAwMCIsImJnYyI6IiNGRkZGRkYiLCJ0IjoxfQ/SG9yaWEg/januari-awal.png"
@@ -37,7 +37,7 @@ const Navigation = () => {
           </div>
 
           <nav
-            className="sm:hidden  lg:flex font-poppins text-lg justify-center items-center p-5 m-0"
+            className=" sm:hidden md:hidden  lg:flex font-poppins text-lg justify-center items-center p-5 m-0"
           >
             <Link
               smooth

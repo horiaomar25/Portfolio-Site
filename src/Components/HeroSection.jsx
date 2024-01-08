@@ -3,8 +3,8 @@ import ProfilePicture from "../assets/picture.jpg";
 const HeroSection = () => {
   return (
     <>
-      <section className="flex justify-center items-center w-auto px-30 p-6 m-4  sm:flex-col sm:w-full sm:m-0 ">
-        <div className=" overflow-hidden h-60 w-1/2 text-center sm:w-full sm:h-full sm:p-5  ">
+      <section className="flex justify-center items-center w-auto px-30 p-6 m-4  sm:border ">
+        <div className=" overflow-hidden h-60 w-1/2 text-center sm:border sm:w-full sm:flex sm:flex-col sm:p-5  ">
           <h1 className="text-3xl p-4  ">FullStack Developer</h1>
           <p className="mb-9">
             Hard-working
