@@ -14,10 +14,7 @@ const AboutMe = () => {
               I am a Junior Full Stack Developer with a background in education.
               I have always had a passion for learning new things. I really
               enjoy documentaries and learning about the world around me. It was
-              one of the reasons why I went on to pursue a degree in History. I
-              have also worked as a volunteer at the Royal Academy of Art
-              providing vistors with information about the historical Burlington
-              House and it's rooms . I am a hard worker and enjoy a challenge. I
+              one of the reasons why I went on to pursue a degree in History.  I am a hard worker and enjoy a challenge. I
               am self-motivated and enjoy working as part of a team. I am
               looking forward to starting my career in tech.
             </p>
@@ -28,9 +25,8 @@ const AboutMe = () => {
             <p className=" leading-loose sm: w-full">
               After working in education, I found tech to be an exciting career.
               It allows you to always keep learning and be able to be
-              creativity. You are solving problems to help people in their
-              everyday life. It also provides continious learning, which is of
-              great appeal to me.
+              creative. You are solving problems to help people in their
+              everyday life. I really enjoy the teamwork in tech as you always learn from other around you. 
             </p>
           </div>
 
