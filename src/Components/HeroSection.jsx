@@ -3,10 +3,12 @@ import ProfilePicture from "../assets/picture.jpg";
 const HeroSection = () => {
   return (
     <>
-      <section className="flex justify-center items-center w-auto px-30 p-6 m-4  md:flex md:flex-col  md:w-auto">
-        <div className=" overflow-hidden h-60 w-1/2 text-center sm:border sm:w-full sm:flex sm:flex-col sm:p-5 md:w-full md:m-4  ">
-          <h1 className="text-3xl p-4  ">FullStack Developer</h1>
-          <p className="mb-9">
+      <section className="flex justify-center items-center  px-30 p-6 m-4 sm:flex sm:flex-col sm:w-auto   md:flex md:flex-col ">
+        <div className=" overflow-hidden h-60 w-1/2 text-center  sm:flex sm:flex-col  md:w-full   ">
+          <h1 className="text-3xl p-4 md:overflow-hidden   ">
+            FullStack Developer
+          </h1>
+          <p className="mb-9 md:mb-9 ">
             Hard-working
             <br />
             Keen to learn
@@ -16,32 +18,28 @@ const HeroSection = () => {
           </p>
 
           <a
-            className="bg-turquoise p-3 rounded-xl border-black border  font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow sm:flex-row sm:justify-center sm:gap-4 md:text-center md:mt-4  "
+            className="bg-turquoise p-3 rounded-xl border-black border font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow "
             href="https://github.com/horiaomar25"
-            target="blank"
+            target="_blank" rel="noreferrer"
           >
- 
-            <button className="w-52 rounded-xl font-bold text  sm:mb-8  m-0 p-0  ">
-              Github 
+            <button className="w-52 rounded-xl font-bold text m-0 p-0 ">
+              Github
             </button>
           </a>
           <a
-            className="bg-turquoise p-3 rounded-xl border-black border  font-poppins hover:bg-light-gray shadow-nav-shadow md:mt-4 "
-            href="https://www.linkedin.com/in/horia-omar"
-            target="blank"
+            className="bg-turquoise p-3 rounded-xl border-black border font-poppins hover:bg-light-gray shadow-nav-shadow"
+            target="_blank" rel="noreferrer"
           >
-            <button className="w-52 rounded-xl font-bold m-0 p-0  ">
+            <button className="w-52 rounded-xl font-bold m-0 p-0 ">
               Linkedin
             </button>
           </a>
         </div>
 
         <img
-
           src={ProfilePicture}
           width={300}
-         
-          className="rounded-full sm:rounded-full border  mt-3 md:w-1/2 "
+          className="rounded-full sm:rounded-full border  mt-3 md:w-2/5 md:mt-20"
           alt="Profile"
         />
       </section>
