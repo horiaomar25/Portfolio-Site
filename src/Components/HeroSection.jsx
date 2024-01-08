@@ -18,7 +18,7 @@ const HeroSection = () => {
           </p>
 
           <a
-            className="bg-turquoise p-3 rounded-xl border-black border font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow "
+            className="bg-turquoise p-3 rounded-xl border-black border font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow md:border md:m-4"
             href="https://github.com/horiaomar25"
             target="_blank" rel="noreferrer"
           >
@@ -27,7 +27,7 @@ const HeroSection = () => {
             </button>
           </a>
           <a
-            className="bg-turquoise p-3 rounded-xl border-black border font-poppins hover:bg-light-gray shadow-nav-shadow"
+            className="bg-turquoise p-3 rounded-xl border-black border font-poppins hover:bg-light-gray shadow-nav-shadow md:border md:m-4"
             target="_blank" rel="noreferrer"
           >
             <button className="w-52 rounded-xl font-bold m-0 p-0 ">
