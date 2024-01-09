@@ -54,7 +54,7 @@ const Projects = () => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            className="md:w-300"
+              className="md:w-96"
              
             ></iframe>
 
@@ -122,10 +122,10 @@ const Projects = () => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-             
+              className="md:w-96"
             ></iframe>
 
-            <div className="flex flex-wrap  mt-4 items-center justify-center ">
+            <div className="flex flex-wrap  mt-4 items-center justify-center md:mt-8 md:flex md:flex-col">
               <a
                  className="bg-turquoise p-3 rounded-xl border-black  text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow sm:border sm:m-4 md:border md:m-4"
                 href="https://land-logic-app-frontend.vercel.app/"
@@ -190,9 +190,10 @@ const Projects = () => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
+              className="md:w-96"
             ></iframe>
 
-            <div className="flex flex-wrap  mt-4 items-center justify-center ">
+            <div className="flex flex-wrap  mt-4 items-center justify-center md:mt-8 md:flex md:flex-col">
               <a
                 className="bg-turquoise p-3 rounded-xl border-black  text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow sm:border sm:m-4 md:border md:m-4"
                 href="https://bc15-w8-project-front-end-fully-stacked.vercel.app/"
