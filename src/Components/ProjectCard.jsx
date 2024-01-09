@@ -5,7 +5,7 @@ const Projects = () => {
         id="projects"
         className="flex justify-center items-center w-auto px-30 p-6 flex-col md:flex  md:flex-col md:w-auto"
       >
-        <h2 className="text-2xl mb-2 overflow-hidden">Projects</h2>
+        <h2 className="text-3xl mb-2 overflow-hidden">Projects</h2>
 
         {/* First Project */}
        
@@ -223,7 +223,7 @@ const Projects = () => {
         </div>  
     
     
-    {/*<----->*/}
+ 
         
             
       </section>
