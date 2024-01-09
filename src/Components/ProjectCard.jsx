@@ -8,13 +8,14 @@ const Projects = () => {
         <h2 className="text-2xl mb-2 overflow-hidden">Projects</h2>
 
         {/* First Project */}
-        <div className="flex flex-row  justify-start p-6 border-b-2  sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full md:flex md:flex-col md:justfy-center md:items-center">
+       
+        <div className="flex flex-row m-4 justify-start p-6 border-b-2 sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full md:flex md:flex-col md:justfy-center md:items-center md:w-full">
           <div className="overflow-hidden w-1/2 sm:w-full sm:m-0  sm:p-5 md:w-11/12 ">
-            <h2 className="text-2xl mb-2 overflow-hidden text-center">
-              EduTask{" "}
+            <h2 className="text-2xl mb-2 text-center overflow-hidden">
+            EduTask{" "}
             </h2>
-            <p className="leading-loose sm:w-full   ">
-              This is a task management tool for teaching assistants to keep
+            <p className="leading-loose sm:w-full md:w-11/12 ">
+            This is a task management tool for teaching assistants to keep
               track of their daily and weekly tasks during a school week. This
               was built using NextJS and MaterialUI.
             </p>
@@ -22,8 +23,8 @@ const Projects = () => {
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               Problem to be solved
             </h2>
-            <p className="leading-loose sm:w-full md:w-full ">
-              I'm former teaching assistant in early years. It was many
+            <p className="leading-loose sm:w-full md:w-11/12 ">
+            I'm former teaching assistant in early years. It was many
               different areas of learning to tackle and to make sure are to get
               done. Many schools that I have worked at mostly deal with paper
               when delegating tasks to their teaching assistants. Unfortunately,
@@ -34,8 +35,8 @@ const Projects = () => {
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               What's the solution?
             </h2>
-            <p className="leading-loose sm:w-full  ">
-              This is where EduTask comes in. It creates a online platform for
+            <p className="leading-loose sm:w-full md:w-11/12">
+            This is where EduTask comes in. It creates a online platform for
               teaching assistant particularly in early years to store their
               daily and weekly tasks. In this way, supply staff can also acccess
               this information to see what tasks are avaliable for them to do.
@@ -65,7 +66,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer" 
               >
-                <button className="w-52 rounded-xl font-bold  m-0 p-0 ">
+                <button className="w-52 rounded-xl font-bold  m-0 p-0">
                   Demo
                 </button>
               </a>
@@ -81,16 +82,19 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+
+    
+          
+        </div>  
 
         {/* Second Project */}
-        <div className="flex flex-row  justify-start p-6 border-b-2  sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full md:flex md:flex-col md:justfy-center md:items-center">
+        <div className="flex flex-row m-4 justify-start p-6 border-b-2 sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full md:flex md:flex-col md:justfy-center md:items-center md:w-full">
           <div className="overflow-hidden w-1/2 sm:w-full sm:m-0  sm:p-5 md:w-11/12 ">
             <h2 className="text-2xl mb-2 text-center overflow-hidden">
-              LendLogic
+            LendLogic
             </h2>
-            <p className="leading-loose sm:w-1/2 md:w-11/12 ">
-              In a group of 6, we built a mortgage tool for those looking to
+            <p className="leading-loose sm:w-full md:w-11/12 ">
+            In a group of 6, we built a mortgage tool for those looking to
               remortage and new buyers. This was heavily focused on user needs.This was built with NextJS, Tailwind and testing was done with Jest and Cypress.
             </p>
 
@@ -98,7 +102,7 @@ const Projects = () => {
               Problem to be solved
             </h2>
             <p className="leading-loose sm:w-full md:w-11/12 ">
-              Our team was given a brief from a well-known financial company.
+            Our team was given a brief from a well-known financial company.
               The brief entailed the following. Their current product for their
               mortgage customer was a one for all tool that did not provide the
               personalized features they needed for their mortgage journey.
@@ -106,8 +110,8 @@ const Projects = () => {
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               What's the solution?
             </h2>
-            <p className="leading-loose sm:w-full md:w-11/12 ">
-              LendLogic provides a questionnaire for our mortgage users. The
+            <p className="leading-loose sm:w-full md:w-11/12">
+            LendLogic provides a questionnaire for our mortgage users. The
               option the users select will provide them with the neccessary
               tools to assist in their mortgage journey.
             </p>
@@ -148,12 +152,12 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div>  
 
         <div className="flex flex-row m-4 justify-start p-6 border-b-2 sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full md:flex md:flex-col md:justfy-center md:items-center md:w-full">
           <div className="overflow-hidden w-1/2 sm:w-full sm:m-0  sm:p-5 md:w-11/12 ">
             <h2 className="text-2xl mb-2 text-center overflow-hidden">
-              Bootcamp Kitchen
+              Bootcamp Kitchen 
             </h2>
             <p className="leading-loose sm:w-full md:w-11/12 ">
               In a group of 6, we built a application that provide quick 15
@@ -216,7 +220,12 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div>  
+    
+    
+    {/*<----->*/}
+        
+            
       </section>
     </>
   );
