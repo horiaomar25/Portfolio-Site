@@ -20,6 +20,37 @@ const Projects = () => {
               was built using NextJS and MaterialUI.
             </p>
 
+            <h3>Built with:</h3>
+
+            <div className="flex flex-row m-5  sm:flex  sm:flex-col sm:w-auto md:flex md:flex-col md:w-auto  ">
+            <div className="flex flex-col items-center mr-10 sm:mr-2">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+              className="w-20"
+            />
+            <p>NextJS</p>
+          </div>
+
+          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+              className="w-20 ml-3"
+            />
+            <p>PostgreSQl</p>
+          </div>
+
+          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
+            <p>MaterialUI</p>
+          </div>
+
+          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+            <p>Tailwind</p>
+          </div>
+          </div>
+
+
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               Problem to be solved
             </h2>
@@ -97,6 +128,24 @@ const Projects = () => {
             In a group of 6, we built a mortgage tool for those looking to
               remortage and new buyers. This was heavily focused on user needs.This was built with NextJS, Tailwind and testing was done with Jest and Cypress.
             </p>
+            <h3>Built with:</h3>
+
+            <div className="flex flex-row m-5  sm:flex  sm:flex-col sm:w-auto md:flex md:flex-col md:w-auto  ">
+            <div className="flex flex-col items-center mr-10 sm:mr-2">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+              className="w-20"
+            />
+            <p>NextJS</p>
+          </div>
+
+        
+         
+          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+            <p>Tailwind</p>
+          </div>
+          </div>
 
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               Problem to be solved
@@ -159,6 +208,7 @@ const Projects = () => {
             <h2 className="text-2xl mb-2 text-center overflow-hidden">
               Bootcamp Kitchen 
             </h2>
+       
             <p className="leading-loose sm:w-full md:w-11/12 ">
               In a group of 6, we built a application that provide quick 15
               minutes recipies that are nutrient to make the most of your
@@ -167,6 +217,32 @@ const Projects = () => {
               15 minutes recipies. The API has been tested with Supertest. End
               to end testing carried out with Playwright.
             </p>
+    <h2>Built with:</h2>
+            <div className="flex flex-row m-4 justify-start p-6  sm:flex sm:justify-center sm:items-center  sm:flex-col sm:w-full md:flex md:flex-col md:justfy-center md:items-center md:w-full">
+ 
+            <div className="flex flex-col items-center mr-10 sm:mr-2">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              className="w-20"
+            />
+            <p>HTML</p>
+          </div>
+          <div className="flex flex-col items-center mr-10 mb-2 sm:mr-2">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              className="w-20"
+            />
+            <p>CSS</p>
+          </div>
+
+          <div className="flex flex-col items-center mr-10 sm:flex-col sm:mr-2 ">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              className="w-20"
+            />
+            <p>Javascript</p>
+          </div>
+          </div>
 
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               Problem to be solved
@@ -204,7 +280,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button   className="w-52 rounded-xl font-bold  m-0 p-0">
+                <button className="w-52 rounded-xl font-bold  m-0 p-0">
                   Demo
                 </button>
               </a>

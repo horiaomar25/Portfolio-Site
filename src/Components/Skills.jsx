@@ -15,14 +15,14 @@ const Skills = () => {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
               className="w-20"
             />
-            <i>HTML</i>
+            <p>HTML</p>
           </div>
           <div className="flex flex-col items-center mr-10 mb-2 sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
               className="w-20"
             />
-            <i>CSS</i>
+            <p>CSS</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 sm:flex-col sm:mr-2 ">
@@ -30,21 +30,21 @@ const Skills = () => {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               className="w-20"
             />
-            <i>Javascript</i>
+            <p>Javascript</p>
           </div>
           <div className="flex flex-col items-center mr-10 sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
               className="w-20"
             />
-            <i>React</i>
+            <p>React</p>
           </div>
           <div className="flex flex-col items-center mr-10 sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
               className="w-20"
             />
-            <i>NextJS</i>
+            <p>NextJS</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 sm:mr-2">
@@ -52,7 +52,7 @@ const Skills = () => {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
               className="w-20"
             />
-            <i>TypeScript</i>
+            <p>TypeScript</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
@@ -60,7 +60,7 @@ const Skills = () => {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
               className="w-20 ml-3"
             />
-            <i>PostgreSQl</i>
+            <p>PostgreSQl</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
@@ -68,7 +68,7 @@ const Skills = () => {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
               className="w-20"
             />
-            <i>Node</i>
+            <p>Node</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
@@ -76,16 +76,20 @@ const Skills = () => {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
               className="w-20"
             />
-            <i>Express</i>
+            <p>Express</p>
           </div>
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
               className="w-20 ml-2"
             />
-            <i>Jest</i>
+            <p>Jest</p>
           </div>
 
+          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+            <i>Tailwind</i>
+          </div>
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
             <img src={vitestIcon} className="w-20 " />
             <i>Vitest</i>
