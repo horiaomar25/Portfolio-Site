@@ -40,28 +40,20 @@ const Projects = () => {
           </div>
 
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" 
+           className="w-20 ml-3"/>
             <p>MaterialUI</p>
           </div>
 
-          <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
-            <p>Tailwind</p>
-          </div>
+         
           </div>
 
 
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
-              Problem to be solved
+              Problem Statement:
             </h2>
             <p className="leading-loose sm:w-full md:w-11/12 ">
-            I'm former teaching assistant in early years. It was many
-              different areas of learning to tackle and to make sure are to get
-              done. Many schools that I have worked at mostly deal with paper
-              when delegating tasks to their teaching assistants. Unfortunately,
-              this also runs the risks of loosing this information.In addidtion,
-              there were times when there were supply teaching assistants to
-              have cover absenses.
+            Teaching Assistant may find it diffcult to keep track of tasks and would like a useful management tool to track tasks
             </p>
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               What's the solution?
@@ -142,19 +134,16 @@ const Projects = () => {
         
          
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"  className="w-20 ml-3"/>
             <p>Tailwind</p>
           </div>
           </div>
 
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
-              Problem to be solved
+           Problem Statment:
             </h2>
             <p className="leading-loose sm:w-full md:w-11/12 ">
-            Our team was given a brief from a well-known financial company.
-              The brief entailed the following. Their current product for their
-              mortgage customer was a one for all tool that did not provide the
-              personalized features they needed for their mortgage journey.
+            Users need an efficient, fast way to find personalized mortgage or remortgage options that align with their financial situation, values and goals.
             </p>
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               What's the solution?
@@ -245,13 +234,10 @@ const Projects = () => {
           </div>
 
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
-              Problem to be solved
+            Problem Statement:
             </h2>
             <p className="leading-loose sm:w-full md:w-11/12 ">
-              In an intensive 16 week coding bootcamp, we found that a lot of us
-              found it diffcult to have a nutrience lunch that did not take too
-              much time. In our user research with fellow bootcampers, we found
-              that many reflected on these same views.
+            The intense nature of this course has had a negative impact on the average bootcampers eating habits.
             </p>
             <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
               What's the solution?

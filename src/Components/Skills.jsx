@@ -97,7 +97,7 @@ const Skills = () => {
         </div>
         {/*<----------------------------------------------SOFT SKILLS ------------------------------------------------>*/}
 
-        <div className="flex flex-col  justify-center items-center  sm:flex sm:justify-center sm:items-center sm:flex-col  sm:w-auto  md:flex-col md:w-auto">
+        <div className="flex flex-row  ml-4 justify-center items-center  sm:flex sm:justify-center sm:items-center sm:flex-col  sm:w-auto  md:flex-col md:w-auto">
           <div className="flex flex-row   justify-center items-center sm:flex-col md:flex-col md:justify-center md:items-center ">
             <img
               src="https://img.freepik.com/free-vector/agile-method-concept-illustration_114360-9906.jpg?w=1380&t=st=1704227095~exp=1704227695~hmac=914a2e3abe1acee23100cd517d081edd0f86651fdec3e85ee7e6aedbe77ff87d"
@@ -106,14 +106,13 @@ const Skills = () => {
               className=" mr-10  sm:w-11/12 sm:m-0 md:w-11/12"
             />
 
-            <p className="w-1/3  m-8 p-2  leading-loose sm:w-full md:w-full">
+            <p className="w-full  m-8 p-2  leading-loose sm:w-full md:w-full">
               {" "}
               <h4 className=" text-2xl overflow-hidden ">Agile </h4>I have
               worked in an Agile enviroment where our team had daily stand ups
-              and retrospectives. I was also able to lead some of our many daily
-              retrospectives and standups to see learn about our team's
-              reflections and tasks. It is really important aspect of any team
-              to not only support each other but work effciently together.
+              and retrospectives.I have
+              worked in an Agile enviroment where our team had daily stand ups
+              and retrospectives.
             </p>
           </div>
 
@@ -125,7 +124,7 @@ const Skills = () => {
               className=" mr-10  sm:w-11/12 sm:m-0"
             />
 
-            <p className="w-1/3  m-8 p-2  leading-loose sm:w-full md:w-full">
+            <p className="w-full  m-8 p-2  leading-loose sm:w-full md:w-full">
               {" "}
               <h4 className=" text-2xl overflow-hidden ">
                 Teamwork and Empathy
@@ -133,15 +132,15 @@ const Skills = () => {
               An important aspect to any team working together is make sure
               everyone feels they are in a safe working space. During my group
               projects, it was important to encourage my teammates to celebrate
-              our successes, but also learn from our mistakes as a group. I made
-              it a point to praise my teammates when they were able to figure
-              out a solution to the roadblocks we faced during our projects.
+              our successes.
               
             </p> 
           
           </div>
 
-          <div className="flex flex-row   justify-center items-center sm:flex-col md:flex md:flex-col md:justify-center md:items-center ">
+          
+        </div>
+        <div className="flex flex-row lg:w-1/2   justify-center items-center sm:flex-col md:flex md:flex-col md:justify-center md:items-center ">
             <img
               src="https://img.freepik.com/free-vector/design-team-concept-illustration_114360-4271.jpg?w=826&t=st=1704385987~exp=1704386587~hmac=3b200dee9ba9693df4f51d887f5961f0587bfbab4aa655fd7a9b6a0e4569a1f5"
               alt="debugging"
@@ -149,17 +148,12 @@ const Skills = () => {
               className=" mr-10  sm:w-11/12 sm:m-0 md:w-11/12 md:m-0"
             />
 
-            <p className="w-1/3  m-8 p-2  leading-loose sm:w-full md:w-full">
+            <p className="w-full  m-8 p-2  leading-loose sm:w-full md:w-full">
               {" "}
               <h4 className=" text-2xl overflow-hidden ">Problem Solving</h4>
-              In one of my group projects, I was able to help my teamates with
-              their gaps in knowledge particularly when it came to dealing with
-              server-side components. I had practise with it beforehand due to
-              building my own project using Next JS. It helped the team project move forward
-              in being able to fetch the data we needed to.
+              In my group projects, I have contributed to help our team with problem-solving. For example, helping with figure out how to use cookies when we used NextJS.
             </p>
           </div>
-        </div>
       </section>
     </>
   );
