@@ -3,8 +3,8 @@ import ProfilePicture from "../assets/picture.jpg";
 const HeroSection = () => {
   return (
     <>
-      <section className="flex justify-center items-center px-30 p-6 m-4 sm:flex sm:flex-col  md:flex md:flex-col ">
-        <div className="overflow-hidden w-full md:w-1/2 text-center sm:flex sm:flex-col">
+      <section className="flex justify-center items-center px-30 p-6 m-4   sm:flex sm:flex-col  md:flex md:flex-col ">
+        <div className="overflow-hidden w-1/2 md:w-1/2 text-center sm:flex sm:flex-col">
           <h1 className="text-3xl p-4 md:overflow-hidden">FullStack Developer</h1>
           <p className="mb-9 md:mb-9">
             Hard-working
@@ -39,7 +39,7 @@ const HeroSection = () => {
         <img
           src={ProfilePicture}
           width={300}
-          className="rounded-full sm:rounded-full border mt-3 md:w-2/5"
+          className="rounded-full  sm:rounded-full border mt-3 md:w-2/5"
           alt="Profile"
         />
       </section>
