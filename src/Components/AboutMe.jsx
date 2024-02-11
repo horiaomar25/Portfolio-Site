@@ -12,7 +12,7 @@ const AboutMe = () => {
             <h2 className="text-2xl mb-2 overflow-hidden">About Me</h2>
             <p className=" leading-loose sm: w-full">
               I am a Junior Full Stack Developer with a background in education.
-              I have always had a passion for learning . I really
+              I have always had a passion for learning. I really
               enjoy documentaries and learning about the world around me. It was
               one of the reasons why I went on to pursue a degree in History.  I am a hard worker and enjoy a challenge. I
               am self-motivated and enjoy working as part of a team. I am
