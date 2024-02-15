@@ -11,7 +11,7 @@ const AboutMe = () => {
           <div className="overflow-hidden  w-11/12 m-2  sm:w-full sm:m-0  sm:p-5 ">
             <h2 className="text-2xl mb-2 overflow-hidden">About Me</h2>
             <p className=" leading-loose sm: w-full">
-              I am a Junior Full Stack Developer with a background in education.
+              I am a Junior Software Engineer with a background in education.
               I have always had a passion for learning. I really
               enjoy documentaries and learning about the world around me. It was
               one of the reasons why I went on to pursue a degree in History.  I am a hard worker and enjoy a challenge. I
@@ -26,7 +26,7 @@ const AboutMe = () => {
               After working in education, I found tech to be an exciting career.
               It allows you to always keep learning and be able to be
               creative. You are solving problems to help people in their
-              everyday life. I really enjoy the teamwork in tech as you always learn from other around you. 
+              everyday life. I really enjoy the teamwork in tech as you always learn from others around you. 
             </p>
           </div>
 

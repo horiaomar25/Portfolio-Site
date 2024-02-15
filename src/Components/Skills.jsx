@@ -110,8 +110,6 @@ const Skills = () => {
               {" "}
               <h4 className=" text-2xl overflow-hidden ">Agile </h4>I have
               worked in an Agile enviroment where our team had daily stand ups
-              and retrospectives.I have
-              worked in an Agile enviroment where our team had daily stand ups
               and retrospectives.
             </p>
           </div>
@@ -151,7 +149,7 @@ const Skills = () => {
             <p className="w-full  m-8 p-2  leading-loose sm:w-full md:w-full">
               {" "}
               <h4 className=" text-2xl overflow-hidden ">Problem Solving</h4>
-              In my group projects, I have contributed to help our team with problem-solving. For example, helping with figure out how to use cookies when we used NextJS.
+              In my group projects, I have contributed to help our team with problem-solving. I have exercised my problem-solving skills by helping my team with brainstorming and debugging. I have also been able to use this skill in my own personal projects.
             </p>
           </div>
       </section>
