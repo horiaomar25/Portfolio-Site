@@ -108,9 +108,9 @@ const Skills = () => {
 
             <p className="w-full  m-8 p-2  leading-loose sm:w-full md:w-full">
               {" "}
-              <h4 className=" text-2xl overflow-hidden ">Agile </h4>I have
-              worked in an Agile enviroment where our team had daily stand ups
-              and retrospectives.
+              <h4 className=" text-2xl overflow-hidden ">Agile </h4>
+              I have worked in an Agile enviroment where our team had daily stand ups
+              and retrospectives. I have worked in sprints acting as a project manager on a once a week basis.
             </p>
           </div>
 
