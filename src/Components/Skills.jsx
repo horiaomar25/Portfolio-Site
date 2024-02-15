@@ -7,7 +7,7 @@ const Skills = () => {
         id="skills"
         className="flex justify-center items-center w-auto px-30 p-6 flex-col sm:w-full sm:items-center sm:justify-center "
       >
-        <h2 className="text-3xl ml-5 text-center  overflow-hidden">Skills</h2>
+        <h2 className="text-3xl ml-5 text-center  overflow-hidden">Tech Stack</h2>
 
         <div className="flex flex-row m-5  sm:flex  sm:flex-col sm:w-auto md:flex md:flex-col md:w-auto  ">
           <div className="flex flex-col items-center mr-10 sm:mr-2">
