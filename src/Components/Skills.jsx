@@ -1,4 +1,4 @@
-import vitestIcon from "../assets/vitest.png";
+
 
 const Skills = () => {
   return (
@@ -7,92 +7,61 @@ const Skills = () => {
         id="skills"
         className="flex justify-center items-center w-auto px-30 p-6 flex-col sm:w-full sm:items-center sm:justify-center "
       >
-        <h2 className="text-3xl ml-5 text-center  overflow-hidden">Tech Stack</h2>
+        <h2 className="text-3xl ml-5 text-center  overflow-hidden ">Tech Stack</h2>
 
-        <div className="flex flex-row m-5  sm:flex  sm:flex-col sm:w-auto md:flex md:flex-col md:w-auto  ">
+        <div className="flex flex-row ml-5  sm:flex  sm:flex-col sm:w-auto md:flex md:flex-col md:w-auto mt-6  ">
           <div className="flex flex-col items-center mr-10 sm:mr-2">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-              className="w-20"
-            />
-            <p>HTML</p>
+            
+            <p className="border-2 border-black p-2 w-full">HTML</p>
           </div>
           <div className="flex flex-col items-center mr-10 mb-2 sm:mr-2">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-              className="w-20"
-            />
-            <p>CSS</p>
+            
+            <p className="border-2 border-black p-2 w-full">CSS</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 sm:flex-col sm:mr-2 ">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-              className="w-20"
-            />
-            <p>Javascript</p>
+            
+            <p className="border-2 border-black p-2 w-full  ">Javascript</p>
           </div>
           <div className="flex flex-col items-center mr-10 sm:mr-2">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-              className="w-20"
-            />
-            <p>React</p>
+            
+            <p className="border-2 border-black p-2 w-full  ">React</p>
           </div>
           <div className="flex flex-col items-center mr-10 sm:mr-2">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-              className="w-20"
-            />
-            <p>NextJS</p>
+            
+            <p className="border-2 border-black p-2 w-full  ">NextJS</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 sm:mr-2">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-              className="w-20"
-            />
-            <p>TypeScript</p>
+            
+            <p className="border-2 border-black p-2 w-full  ">TypeScript</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-              className="w-20 ml-3"
-            />
-            <p>PostgreSQl</p>
+            
+            <p className="border-2 border-black p-2 w-full">PostgreSQl</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-              className="w-20"
-            />
-            <p>Node</p>
+            
+            <p className="border-2 border-black p-2 w-full  ">Node</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
-              className="w-20"
-            />
-            <p>Express</p>
+            
+            <p className="border-2 border-black p-2 w-full  ">Express</p>
           </div>
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
-              className="w-20 ml-2"
-            />
-            <p>Jest</p>
+            
+            <p className="border-2 border-black p-2 w-full  ">Jest</p>
           </div>
 
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
-            <i>Tailwind</i>
+          
+          <p className="border-2 border-black p-2 w-full  ">TailwindCSS</p>
           </div>
           <div className="flex flex-col items-center mr-10 justify-center sm:mr-2">
-            <img src={vitestIcon} className="w-20 " />
-            <i>Vitest</i>
+          <p className="border-2 border-black p-2 w-full  ">Vitest</p>
           </div>
         </div>
         {/*<----------------------------------------------SOFT SKILLS ------------------------------------------------>*/}
