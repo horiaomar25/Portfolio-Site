@@ -9,7 +9,7 @@ const Projects = () => {
         {/* First Project */}
         <div className="flex flex-row m-4 justify-start p-6 border  sm:flex-col sm:w-full">
           <div className="overflow-hidden w-1/2 sm:w-full sm:m-0 sm:border sm:p-5">
-            <h2 className="text-2xl mb-2 overflow-hidden">EduTask </h2>
+            <h2 className="text-2xl mb-2 overflow-hidden">EduTask  </h2>
             <p className="leading-loose sm:w-full">
               This is a task management tool for teaching assistants to keep
               track of their daily and weekly tasks during a school week.

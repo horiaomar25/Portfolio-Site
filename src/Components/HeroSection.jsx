@@ -5,7 +5,7 @@ const HeroSection = () => {
     <>
       <section className="flex justify-center items-center px-30 p-6 m-4   sm:flex sm:flex-col  md:flex md:flex-col ">
         <div className="overflow-hidden w-1/2 md:w-1/2 text-center sm:flex sm:flex-col">
-          <h1 className="text-2xl p-4  md:overflow-hidden">Junior Software Developer</h1>
+          <h1 className="text-2xl p-4  md:overflow-hidden">Junior Software Engineer</h1>
           <p className="mb-9 md:mb-9">
             Hard-working
             <br />

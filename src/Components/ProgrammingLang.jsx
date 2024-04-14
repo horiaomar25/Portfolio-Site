@@ -1,4 +1,4 @@
-const Skills = () => {
+const ProgrammingLang = () => {
   // Define an array of technologies
   const technologies = [
     { name: "HTML" },
@@ -20,10 +20,10 @@ const Skills = () => {
   // Render each technology dynamically
   const renderTechnologies = () => {
     return technologies.map((tech, index) => (
-      <div key={index} className="mb-4 md:mb-0 md:w-1/4 flex flex-col items-center w-full">
-        <p className="text-lg font-bold">{tech.name}</p>
+      <div key={index} className="mr-4 flex flex-col items-center">
+        <p className="text-xl font-bold">{tech.name}</p>
         <div className="flex items-center">
-          <span className="text--500 mr-1">&#10003;</span>
+          <span className="text-green-500 mr-1">&#10003;</span>
           <p className="text-gray-500 text-xs">Proficient</p>
         </div>
       </div>
@@ -31,18 +31,17 @@ const Skills = () => {
   };
 
   return (
-    <>
-      <h2 className="text-center text-4xl overflow-hidden">Tech Stack</h2>
-      <section className="flex  justify-center item-center border border-black m-8 rounded-lg" id="skills">
-        <div className="w-full flex justify-center items-center md:w-1/2 lg:w-1/2 xl:w-2/3 px-4 mt-8">
-          <div className="grid grid-cols-1 w-full md:grid-cols-1 lg:grid-cols-3 gap-4">
-            {renderTechnologies()}
-          </div>
+    <section className="flex flex-row">
+      <div className="border w-full m-8 h-96 rounded-xl flex flex-col p-5 justify-start items-start">
+        <div className="grid grid-cols-3 gap-4 w-full">
+          {renderTechnologies()}
         </div>
-      </section>
-    </>
+      </div>
+
+      
+    </section>
   );
 };
 
-export default Skills;
+export default ProgrammingLang;
 
