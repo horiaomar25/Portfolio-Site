@@ -28,7 +28,7 @@ const SoftSkills = () => {
                   width={500}
                   className=" mr-10  sm:w-11/12 sm:m-0" />
 
-              <p className="w-full  m-8 p-2  leading-loose sm:w-full md:w-full">
+              <p className="w-full  m-8 p-2  leading-loose sm:w-full md:w-full lg:w-full">
                   {" "}
                   <h4 className=" text-2xl overflow-hidden ">
                       Teamwork and Empathy
@@ -45,21 +45,42 @@ const SoftSkills = () => {
 
       </div>
       
-      <div className="flex flex-row lg:w-1/2 lg:flex    justify-center items-center sm:flex-col md:flex md:flex-col md:justify-center md:items-center ">
-              <img
-                  src="https://img.freepik.com/free-vector/design-team-concept-illustration_114360-4271.jpg?w=826&t=st=1704385987~exp=1704386587~hmac=3b200dee9ba9693df4f51d887f5961f0587bfbab4aa655fd7a9b6a0e4569a1f5"
-                  alt="debugging"
-                  width={500}
-                  className=" mr-10  sm:w-11/12 sm:m-0 md:w-11/12 md:m-0" />
 
-              <p className="w-full  m-8 p-2  leading-loose sm:w-full md:w-full">
-                  {" "}
-                  <h4 className=" text-2xl overflow-hidden ">Problem Solving</h4>
-                  In my group projects, I have contributed to help our team with problem-solving. I have exercised my problem-solving skills by helping my team with brainstorming and debugging. I have also been able to use this skill in my own personal projects.
-              </p>
-          </div></>
+      
+      <div className="flex flex-row  ml-4 justify-center items-center sm:flex sm:justify-center sm:items-center sm:flex-col sm:w-auto md:flex-col md:w-auto">
+        {/* Problem Solving Section */}
+        <div className="flex flex-row justify-center items-center sm:flex-col md:flex-col md:justify-center md:items-center ">
+          <img
+            src="https://img.freepik.com/free-vector/design-team-concept-illustration_114360-4271.jpg?w=826&t=st=1704385987~exp=1704386587~hmac=3b200dee9ba9693df4f51d887f5961f0587bfbab4aa655fd7a9b6a0e4569a1f5"
+            alt="debugging"
+            width={500}
+            className="mr-6 sm:w-11/12 sm:m-0 md:w-11/12 md:m-0"
+          />
 
-  )
-}
+          <p className="w-full m-8 p-2 leading-loose sm:w-full md:w-full lg:w-full">
+            <h4 className="text-2xl overflow-hidden">Problem Solving</h4>
+            In my group projects, I have contributed to helping our team with problem-solving. I have exercised my problem-solving skills by assisting my team with brainstorming and debugging. I have also been able to utilize this skill in my own personal projects.
+          </p>
+        </div>
+
+        {/* Adaptability Section */}
+        <div className="flex flex-row justify-center items-center sm:flex-col md:flex md:flex-col md:justify-center md:items-center ">
+          <img
+            src="https://img.freepik.com/free-vector/design-team-concept-illustration_114360-4271.jpg?w=826&t=st=1704385987~exp=1704386587~hmac=3b200dee9ba9693df4f51d887f5961f0587bfbab4aa655fd7a9b6a0e4569a1f5"
+            alt="debugging"
+            width={500}
+            className="mr-10 sm:w-11/12 sm:m-0 md:w-11/12 md:m-0"
+          />
+
+          <p className="w-full m-8 p-2 leading-loose sm:w-full md:w-full">
+            <h4 className="text-2xl overflow-hidden">Adaptability</h4>
+            In my group projects, I was able to adapt to challenging situations and learning new technologies. It was great being involved in brainstorming sessions and working with the team when we had to make quick decisions.
+          </p>
+        </div>
+      </div>
+    </>
+  );
+};
+
 
 export default SoftSkills
