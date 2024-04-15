@@ -1,8 +1,9 @@
-# React + Vite
+# Portfolio Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my portfolio site. It is built with React and the components are styled with DaisyUI. It showcases my skill set, projects, and offers insight into who I am.
 
-Currently, two official plugins are available:
+## What I Learned
+- Built a responsive web application using React.
+- Implemented components styled with DaisyUI for a visually appealing design.
+- Showcased my skills, projects, and personal information effectively.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
