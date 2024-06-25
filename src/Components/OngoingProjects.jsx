@@ -7,18 +7,7 @@ const OngoingProjects = () => {
   
         <section className="flex flex-col justify-center items-center w-full p-8 lg:flex-row lg:justify-center lg:w-auto md:flex md:justify-center md:items-center">
           {/* Card 1 */}
-          <div className="rounded-xl w-full lg:w-96 border border-black mb-8 lg:mb-0 lg:mr-8">
-            <figure></figure>
-            <div className="card-body">
-              <h2 className="card-title">#100DaysOfCode blog</h2>
-              <p>Documenting my journey in learning new programming concepts</p>
-              <div className="flex flex-row justify-between">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original-wordmark.svg" 
-                 width={50}/>
-           
-              </div>
-            </div>
-          </div>
+          
   
           {/* Card 2 */}
           <div className="rounded-xl  lg:w-96 border border-black mb-8 lg:mb-0 w-full ">
