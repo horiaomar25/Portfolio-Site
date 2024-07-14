@@ -30,8 +30,9 @@ const BootcampKitchen = () => {
           <div className="border border-black rounded-md p-4 w-1/2 mt-4 shadow-lg">
             <p className="text-lg font-semibold leading-relaxed text-center">
               Technologies used: HTML, CSS, Bootstrap, PostrgreSQL
-              Tested with: Playwright, Supertest
+              
             </p>
+            <p className="text-lg font-semibold leading-relaxed text-center">Tested with: Playwright, Supertest</p>
             <p className="text-lg font-semibold leading-relaxed text-center">
               My Role: Fullstack Developer
             </p>

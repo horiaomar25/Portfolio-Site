@@ -37,8 +37,9 @@ const EduTask = () => {
           <div className="border border-black rounded-md p-4 w-1/2 mt-4 shadow-lg">
             <p className="text-lg font-semibold leading-relaxed text-center">
               Technologies used: Next.js, React.js, MaterialUI
-              Tested with: Playwright
+              
             </p>
+            <p className="text-lg font-semibold leading relaxed text-center">Tested with: Playwright</p>
             <p className="text-lg font-semibold leading-relaxed text-center">
               My Role: Full Stack Developer
             </p>
