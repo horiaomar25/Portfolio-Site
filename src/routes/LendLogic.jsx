@@ -34,11 +34,13 @@ const LendLogic = () => {
 
         <div className="flex flex-col justify-center items-center mx-12 ">
           <div className="border border-black rounded-md p-4  w-1/2 mt-4 shadow-lg">
-            <p className="text-lg font-semibold leading-relaxed text-center">Technologies used:
+            <p className="text-lg font-semibold leading-relaxed text-center ">
+              Technologies used:
               Next.js, React.js, TailwindCSS,
-              Tested with: Jest, Cypress
+              
 
             </p>
+            <p className="text-lg font-semibold leading-relaxed text-center">Tested with: Jest, Cypress</p>
             <p className="text-lg font-semibold leading-relaxed text-center">My Role: FullStack Developer</p>
           </div>
 
@@ -56,23 +58,23 @@ const LendLogic = () => {
                 <li>
                   <strong>Understanding User Needs:</strong>
                   <ol className="list-decimal pl-4 mt-2">
-                    <li>Conducting comprehensive research, including competitive analysis and user interviews, to identify the specific desires and requirements of users at different stages of the property ladder.</li>
-                    <li>Developing a refined problem statement based on insights from the research to ensure the solution addresses actual user needs.</li>
+                    <li className="mb-2">1. Conducting comprehensive research, including competitive analysis and user interviews, to identify the specific desires and requirements of users at different stages of the property ladder.</li>
+                    <li> 2. Developing a refined problem statement based on insights from the research to ensure the solution addresses actual user needs.</li>
                   </ol>
                 </li>
                 <li className="mt-2">
                   <strong>Technical Implementation:</strong>
                   <ol className="list-decimal pl-4">
-                    <li>Building a robust preference gathering tool to capture user needs and deliver tailored information.</li>
-                    <li>Ensuring seamless integration of user authentication and data storage using cookies to enhance the user experience.</li>
-                    <li>Creating a dynamic and interactive dashboard that reflects personalized financial data and tools.</li>
+                    <li className="mb-2">1. Building a robust preference gathering tool to capture user needs and deliver tailored information.</li>
+                    <li className="mb-2">2. Ensuring seamless integration of user authentication and data storage using cookies to enhance the user experience.</li>
+                    <li>3. Creating a dynamic and interactive dashboard that reflects personalized financial data and tools.</li>
                   </ol>
                 </li>
                 <li className="mt-2">
                   <strong>Customization and Flexibility:</strong>
                   <ol className="list-decimal pl-4">
-                    <li>Implementing features that allow users to adjust financial inputs dynamically, such as property values and savings goals, to reflect changes in their financial situation.</li>
-                    <li>Designing tools for both new buyers and those looking to remortgage, catering to a wide range of user scenarios.</li>
+                    <li className="mb-2">1. Implementing features that allow users to adjust financial inputs dynamically, such as property values and savings goals, to reflect changes in their financial situation.</li>
+                    <li>2. Designing tools for both new buyers and those looking to remortgage, catering to a wide range of user scenarios.</li>
                   </ol>
                 </li>
               </ol>
@@ -84,8 +86,8 @@ const LendLogic = () => {
                 <li>
                   <strong>Personalized User Experience:</strong>
                   <ol className="list-decimal pl-4">
-                    <li>Successful creation of a preference gathering tool that engages users to collect data about their financial preferences, goals, and requirements.</li>
-                    <li>Development of a personalized and dynamic user experience within the LendLogic app, with tailored financial tools and features displayed on the user dashboard.</li>
+                    <li className="mb-2">1. Successful creation of a preference gathering tool that engages users to collect data about their financial preferences, goals, and requirements.</li>
+                    <li>2. Development of a personalized and dynamic user experience within the LendLogic app, with tailored financial tools and features displayed on the user dashboard.</li>
                   </ol>
                 </li>
                 <li className="mt-2">

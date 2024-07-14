@@ -58,22 +58,22 @@ const BootcampKitchen = () => {
                 <li>
                   <strong>User-Centered Design:</strong>
                   <ol className="list-decimal pl-4">
-                    <li>Conducted thorough research, including competitor analysis and user interviews, to identify the specific needs and desires of bootcampers.</li>
-                    <li>Created a problem statement based on insights from the research to ensure the solution addresses actual user needs.</li>
+                    <li className="mb-2">1. Conducted thorough research, including competitor analysis and user interviews, to identify the specific needs and desires of bootcampers.</li>
+                    <li>2. Created a problem statement based on insights from the research to ensure the solution addresses actual user needs.</li>
                   </ol>
                 </li>
                 <li className="mt-2">
                   <strong>Effective Solution Implementation:</strong>
                   <ol className="list-decimal pl-4">
-                    <li>Developed an application that provides 15-minute recipes to give bootcampers more time to focus on their studies while ensuring they have nutritious meals.</li>
-                    <li>Included a variety of meal options, such as gluten-free recipes, to cater to different dietary needs.</li>
+                    <li className="mb-2">1. Developed an application that provides 15-minute recipes to give bootcampers more time to focus on their studies while ensuring they have nutritious meals.</li>
+                    <li>2. Included a variety of meal options, such as gluten-free recipes, to cater to different dietary needs.</li>
                   </ol>
                 </li>
                 <li className="mt-2">
                   <strong>Positive User Impact:</strong>
                   <ol className="list-decimal pl-4">
-                    <li>Improved the eating habits of bootcampers by providing easy access to quick and nutritious recipes.</li>
-                    <li>Enhanced the overall bootcamp experience by reducing the stress related to meal preparation and allowing bootcampers to focus more on their studies.</li>
+                    <li className="mb-2">1. Improved the eating habits of bootcampers by providing easy access to quick and nutritious recipes.</li>
+                    <li> 2. Enhanced the overall bootcamp experience by reducing the stress related to meal preparation and allowing bootcampers to focus more on their studies.</li>
                   </ol>
                 </li>
               </ol>
