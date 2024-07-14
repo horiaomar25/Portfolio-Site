@@ -8,17 +8,21 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    screens: {
-      sm: { max: "390px" },
-      md: { max: "768px" },
-      lg: "976px",
-      xl: "1440px",
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+      },
     },
     colors: {
       turquoise: "#75E7A4",
       "gradient-turquoise":
         "linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(117,231,164,1) 35%, rgba(117,231,164,1) 100%);",
-      "light-gray": "#B2B2B2",
+      "light-gray": "#B8B8B8",
       "light-turquoise": "RGBA(117, 231, 164, 0.5)",
       "dark-green": "#449999",
       yellow: "#FBE7C6",
@@ -35,6 +39,7 @@ export default {
   },
   fontFamily: {
     poppins: "Poppins",
+    rethinksans: "Rethink Sans"
   },
   daisyui: {
     themes: [],

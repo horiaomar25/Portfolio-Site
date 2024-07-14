@@ -1,32 +1,35 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import HeroSection from "./Components/HeroSection";
-import AboutMe from "./Components/AboutMe";
-import Projects from "./Components/ProjectCard";
-import Skills from "./Components/Skills";
-import Footer from "./Components/Footer";
-import Navigation from "./Components/Navigation"
-import SoftSkills from "./Components/SoftSkills";
+import Home from "./routes/Home";
 
+import Nav from "./Components/NewNav";
 
-
-
+import LendLogic from "./routes/LendLogic";
 import "./App.css";
-import OngoingProjects from "./Components/OngoingProjects";
-
+import EduTask from "./routes/EduTask";
+import BootcampKitchen from "./routes/BootcampKitchen";
+import About from "./routes/About";
+import SkillsSection from "./routes/SkillsSection";
 
 function App() {
   return (
-    <>
-  <Navigation/>
-      <HeroSection />
-      <AboutMe /> 
+    <Router>
+      <Nav />
+      <main className="align-center">
+        <Routes> 
+          <Route path="/" element={<Home />} />
+          <Route path="/lendlogic" element={<LendLogic />} />
+          <Route path="/edutask" element={<EduTask />} />
+          <Route path="/bootcampkitchen" element={<BootcampKitchen />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Skills" element={<SkillsSection />} />
 
-      <Skills />
-     <SoftSkills/>
-      <Projects/>
-      <OngoingProjects/>
-      <Footer />
-    </>
+         
+        </Routes>
+       
+        
+      </main>
+    </Router>
   );
 }
 

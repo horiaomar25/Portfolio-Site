@@ -1,5 +1,6 @@
-const Skills = () => {
 
+
+const Skills = () => {
   // Define an array of technologies with their respective icons (image URLs)
   const technologies = [
     { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg", alt: "HTML5" },
@@ -43,10 +44,11 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default Skills;
 
 
-  
+
+
