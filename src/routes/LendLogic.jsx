@@ -35,7 +35,8 @@ const LendLogic = () => {
         <div className="flex flex-col justify-center items-center mx-12 ">
           <div className="border border-black rounded-md p-4  w-1/2 mt-4 shadow-lg">
             <p className="text-lg font-semibold leading-relaxed text-center">Technologies used:
-              Next.js, React.js, TailwindCSS, Jest, Cypress
+              Next.js, React.js, TailwindCSS,
+              Tested with: Jest, Cypress
 
             </p>
             <p className="text-lg font-semibold leading-relaxed text-center">My Role: FullStack Developer</p>
