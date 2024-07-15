@@ -1,74 +1,79 @@
-import { HashLink as Link } from "react-router-hash-link";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
+import { HashLink as HashLink} from "react-router-hash-link";
 
-const Navigation = () => {
+const NewNav = () => {
+  const [menu, setMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setMenu(!menu);
+  };
+
   return (
-    <>
-      <BrowserRouter>
-        <div className="navbar border border-black w-full ">
-          <div className="flex-none">
-            <label htmlFor="my-drawer" className="btn btn-primary m-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                className="inline-block w-5 h-5 stroke-current"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
-              </svg>
-            </label>
-           
+    <div className="navbar bg-base-100">
+      <div className="navbar-start  flex flex-col">
+        <div className="flex w-full justify-between items-center">
+          
+          <div
+            role="button"
+            className="btn btn-ghost lg:hidden "
+            onClick={toggleMenu}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
           </div>
-          <div className="flex-1 justify-center">
-            <a className="btn btn-ghost text-xl">Horia</a>
-          </div>
+          <a className="font-extrabold btn-ghost text-4xl p-4">Horia</a>
         </div>
-        <div className="flex-none">
-          <div className="drawer">
-            <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-
-            <div className="drawer-side">
-              <label
-                htmlFor="my-drawer"
-                aria-label="close sidebar"
-                className="drawer-overlay "
-              ></label>
-              <ul className="menu p-6 text-center w-80 min-h-full border border-black bg-turquoise">
-                {/* Sidebar content here */}
-                <Link
-                  smooth
-                  to="#about"
-                  className="mb-4 hover:bg-light-gray hover:w-full hover:border hover:rounded-lg hover:text-black text-xl"
-                >
-                  About
-                </Link>
-                <Link
-                  smooth
-                  to="#skills"
-                  className="mb-4 hover:bg-light-gray hover:w-full hover:border hover:rounded-lg hover:text-black text-xl"
-                >
-                  Skills
-                </Link>
-                <Link
-                  smooth
-                  to="#projects"
-                  className="mb-4 hover:bg-light-gray hover:w-full hover:border hover:rounded-lg hover:text-black text-xl"
-                >
-                  Projects
-                </Link>
-              </ul>
-            </div>
+        {menu && (
+          <div className="mobile-menu text-center bg-base-200  flex justify-center items-center z-50 lg:hidden">
+            <ul className="flex flex-col items-center">
+      <li className="text-center py-4">
+        <a className="text-xl font-bold">About</a>
+      </li>
+      <li className="text-center py-4">
+        <a className="text-xl font-bold">Projects</a>
+      </li>
+      <li className="text-center py-4">
+        <a className="text-xl font-bold">Skills</a>
+      </li>
+    </ul>
           </div>
-        </div>
-      </BrowserRouter>
-    </>
+        )}
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">
+        <li>
+            <Link to="/" className="text-2xl font-bold hover:bg-turquoise">Home</Link>
+          </li>
+          <li>
+            <Link to="/about" className="text-2xl font-bold hover:bg-turquoise">About</Link>
+          </li>
+          <li>
+            <Link to="/skills" className="text-2xl font-bold hover:bg-turquoise">Skills</Link>
+          </li>
+          <li>
+            <HashLink smooth to="#projects" className="text-2xl font-bold hover:bg-turquoise">Projects</HashLink>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end"></div>
+    </div>
   );
 };
 
-export default Navigation;
+export default NewNav;
+
 

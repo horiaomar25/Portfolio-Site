@@ -1,9 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Home from "./routes/Home";
-
-import Nav from "./Components/NewNav";
-
+import Navigation from "./Components/Navigation";
 import LendLogic from "./routes/LendLogic";
 import "./App.css";
 import EduTask from "./routes/EduTask";
@@ -14,9 +11,9 @@ import SkillsSection from "./routes/SkillsSection";
 function App() {
   return (
     <Router>
-      <Nav />
+      <Navigation />
       <main className="align-center">
-        <Routes> 
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/lendlogic" element={<LendLogic />} />
           <Route path="/edutask" element={<EduTask />} />
@@ -24,10 +21,10 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Skills" element={<SkillsSection />} />
 
-         
+
         </Routes>
-       
-        
+
+
       </main>
     </Router>
   );

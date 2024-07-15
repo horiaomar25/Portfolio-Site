@@ -3,7 +3,7 @@
 const SoftSkills = () => {
   return (
     <>
-   <h2 className="text-center text-4xl overflow-hidden">Soft Skills</h2>
+   <h2 className="text-center text-4xl overflow-hidden font-extra-bold">Soft Skills</h2>
     
     <div className="flex flex-row  ml-4 justify-center items-center  sm:flex sm:justify-center sm:items-center sm:flex-col  sm:w-auto  md:flex-col md:w-auto">
           <div className="flex flex-row   justify-center items-center sm:flex-col md:flex-col md:justify-center md:items-center ">

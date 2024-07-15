@@ -1,176 +1,171 @@
-const Projects = () => {
+import { Link } from "react-router-dom";
+import edutask from "../assets/edutaskshot.png";
+import lendlogic from "../assets/lendlogic.png";
+import bootcampkitchen from "../assets/bootcampkitchen.png";
+
+const NewProjects = () => {
   return (
-    <>
-      <section
-        id="projects"
-        className="flex justify-center items-center w-auto px-30 p-6 border flex-col"
-      >
-        <h2 className="text-2xl mb-2 overflow-hidden">Projects</h2>
-        {/* First Project */}
-        <div className="flex flex-row m-4 justify-start p-6 border  sm:flex-col sm:w-full">
-          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0 sm:border sm:p-5">
-            <h2 className="text-2xl mb-2 overflow-hidden">EduTask  </h2>
-            <p className="leading-loose sm:w-full">
-              This is a task management tool for teaching assistants to keep
-              track of their daily and weekly tasks during a school week.
-            </p>
+    <section  id="projects" className="flex flex-col items-center px-6 py-4 lg:m-10 md:px-30 md:py-6 mx-2 my-4">
+      <h2 className="text-5xl text-center font-extrabold p-3 ml-6">Projects</h2>
 
-            <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
-              Problem to be solved
-            </h2>
-            <p className="leading-loose sm:w-full">
-              After working in education, I found tech to be an exciting career
-              that allows you to help others and challenge yourself, which is a
-              great appeal to me.
-            </p>
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 md:grid-cols-1">
+        {/** Card 1 - Lendlogic */}
+        <article className="flex flex-col justify-start items-start">
+          <div className="mockup-browser-toolbar"></div>
+          <div className="bg-base-200 flex justify-center px-4 pt-16">
+            <img
+              src={lendlogic}
+              className="w-full border border-black rounded-lg"
+              alt="Lend Logic"
+            />
+          </div>
+          <div className="flex flex-row justify-between items-center w-full">
+            <h3 className="text-3xl overflow-hidden mt-4 ml-5 font-extrabold">
+              Lend Logic
+            </h3>
+            <Link to="/lendlogic" className="ml-auto mr-8">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-8 mt-4 hover:bg-turquoise hover:rounded-lg"
+                viewBox="0 0 32 32"
+              >
+                <g data-name="13-Arrow Up">
+                  <path d="M25 0H7a7 7 0 0 0-7 7v18a7 7 0 0 0 7 7h18a7 7 0 0 0 7-7V7a7 7 0 0 0-7-7zm5 25a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5h18a5 5 0 0 1 5 5z" />
+                  <path d="M24 7H14v2h7.59L7.29 23.29 8.7 24.7 23 10.41V18h2V8a1 1 0 0 0-1-1z" />
+                </g>
+              </svg>
+            </Link>
           </div>
 
-          <div className=" flex flex-col w-1/2  mt-6 px-30 p-4 m-4 ">
-            <iframe
-              width="600"
-              height="415"
-              src="https://www.youtube.com/embed/C9_1leIDqNg?si=cCNH6QLLozm2Rgvd"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+          <p className="ml-5 text-xl mt-2">
+            Mortgage tool for first time buyer and those looking to remortgage.
+          </p>
 
-            <div className="flex flex-wrap  mt-4 m- 10items-center justify-center ">
-              <a
-                className="bg-turquoise p-3 rounded-xl border-black border text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow"
-                href="https://edu-task-horias-projects-dc29575b.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
-                  Demo
-                </button>
-              </a>
-              <a
-                className="bg-turquoise p-3 rounded-xl border-black border font-poppins hover:bg-light-gray shadow-nav-shadow"
-                href="https://github.com/horiaomar25/edu-task"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
-                  Repo
-                </button>
-              </a>
-            </div>
+          <div className="flex flex-row my-4 ml-5">
+            <a href="https://github.com/MartiZu/LendLogic-app">
+              <img
+                className="w-10 mr-6"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                alt="Github Icon"
+              />
+            </a>
+            <a href="https://land-logic-app-frontend.vercel.app/">
+              <img
+                className="w-10"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_-KPutrb-_HGu1LeZF3gnY1vUIZ3bmnJyA&usqp=CAU"
+                alt="Website Icon"
+              />
+            </a>
           </div>
-        </div>
-        {/* End of First Project */}
+        </article>
 
-        {/* Second Project */}
-        <div className="flex flex-row m-4 justify-start p-6 border  sm:flex-col sm:w-full">
-          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0 sm:border sm:p-5">
-            <h2 className="text-2xl mb-2 overflow-hidden">LendLogic</h2>
-            <p className="leading-loose sm:w-full">
-              In a group of 6, we built a mortgage tool for those looking to
-              remortage and new buyers. This was heavily focused on user needs.
-            </p>
-
-            <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
-              Problem to be solved
-            </h2>
-            <p className="leading-loose sm:w-full">
-              Brief from stakeholder to deal with the issues of the current
-              product
-            </p>
+        {/** Card 2 - EduTask */}
+        <article className="flex flex-col justify-start items-start">
+          <div className="mockup-browser-toolbar"></div>
+          <div className="bg-base-200 flex justify-center px-4 pt-16">
+            <img
+              src={edutask}
+              className="w-full border border-black rounded-lg"
+              alt="EduTask"
+            />
           </div>
 
-          <div className=" flex flex-col mt-6 px-30 p-4 m-4">
-            <iframe
-              width="600"
-              height="415"
-              src="https://www.youtube.com/embed/MBCGeILfhXQ?si=U1zY_tMrXApMnF17"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-
-            <div className="flex flex-wrap  mt-4 m-4 items-center justify-center">
-              <a
-                className="bg-turquoise p-3 rounded-xl border-black border text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow"
-                href="https://land-logic-app-frontend.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
+          <div className="flex flex-row justify-between items-center w-full">
+            <h3 className="text-3xl overflow-hidden mt-4 ml-5 font-extrabold">
+              EduTask
+            </h3>
+            
+            <Link to="/edutask" className="ml-auto mr-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-8 mt-4 hover:bg-turquoise hover:rounded-lg"
+                viewBox="0 0 32 32"
               >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
-                  Demo
-                </button>
-              </a>
-              <a
-                className="bg-turquoise p-3 rounded-xl border-black border font-poppins hover:bg-light-gray shadow-nav-shadow"
-                href="https://github.com/MartiZu/LendLogic-app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
-                  Repo
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-        {/* End of Second Project */}
-
-        <div className="flex flex-row m-4 justify-start p-6 border  sm:flex-col sm:w-full">
-          <div className="overflow-hidden w-1/2 sm:w-full sm:m-0 sm:border sm:p-5">
-            <h2 className="text-2xl mb-2 overflow-hidden">Bootcamp Kitchen</h2>
-            <p className="leading-loose sm:w-full">
-              In a group of 6, we built a application that provide quick 15
-              minutes meal to make the most of your lunchtime.
-            </p>
-
-            <h2 className="text-2xl overflow-hidden mt-4 mb-3 font-poppins">
-              Problem to be solved
-            </h2>
-            <p className="leading-loose sm:w-full">
-              Not enough time during bootcamp to eat properly.
-            </p>
+                <g data-name="13-Arrow Up">
+                  <path d="M25 0H7a7 7 0 0 0-7 7v18a7 7 0 0 0 7 7h18a7 7 0 0 0 7-7V7a7 7 0 0 0-7-7zm5 25a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5h18a5 5 0 0 1 5 5z" />
+                  <path d="M24 7H14v2h7.59L7.29 23.29 8.7 24.7 23 10.41V18h2V8a1 1 0 0 0-1-1z" />
+                </g>
+              </svg>
+              </Link>
+          
           </div>
 
-          <div className=" flex flex-col mt-6 px-30 p-4 m-4">
-            <iframe
-              width="600"
-              height="415"
-              src="https://www.youtube.com/embed/Pun7VPBVFn0?si=lRkiRm09xBTV6zYX"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+          <p className="ml-5 text-xl mt-2">
+            A task management tool for teaching assistants to keep track of their daily and weekly tasks.
+          </p>
 
-            <div className="flex flex-wrap  mt-4 m-4 items-center justify-center">
-              <a
-                className="bg-turquoise p-3 rounded-xl border-black border text-center font-poppins mr-4 hover:bg-light-gray shadow-nav-shadow"
-                href="https://bc15-w8-project-front-end-fully-stacked.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
-                  Demo
-                </button>
-              </a>
-              <a
-                className="bg-turquoise p-3 rounded-xl border-black border font-poppins hover:bg-light-gray shadow-nav-shadow"
-                href="https://github.com/horiaomar25/bc15-w8-project-fully-stacked-bootcamp-kitchen"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="w-52 rounded-xl font-bold text sm:mb-8 m-0 p-0">
-                  Repo
-                </button>
-              </a>
-            </div>
+          <div className="flex flex-row my-4 ml-5">
+            <a href="https://github.com/horiaomar25/edu-task">
+              <img
+                className="w-10 mr-6"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                alt="Github Icon"
+              />
+            </a>
+            <a href="https://edu-task-horias-projects-dc29575b.vercel.app/">
+              <img
+                className="w-10"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_-KPutrb-_HGu1LeZF3gnY1vUIZ3bmnJyA&usqp=CAU"
+                alt="Website Icon"
+              />
+            </a>
           </div>
-        </div>
-      </section>
-    </>
+        </article>
+
+        {/** Card 3 - Bootcamp Kitchen */}
+        <article className="flex flex-col justify-start items-start">
+          <div className="mockup-browser-toolbar"></div>
+          <div className="bg-base-200 flex justify-center px-4 pt-16">
+            <img
+              src={bootcampkitchen}
+              className="w-full border border-black rounded-lg"
+              alt="Bootcamp Kitchen"
+            />
+          </div>
+
+          <div className="flex flex-row justify-between items-center w-full">
+            <h3 className="text-3xl overflow-hidden mt-4 ml-5 font-extrabold">
+              Bootcamp Kitchen
+            </h3>
+           <Link to="/bootcampkitchen" className="ml-auto mr-8">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-8 mt-4 hover:bg-turquoise hover:rounded-lg"
+                viewBox="0 0 32 32"
+              >
+                <g data-name="13-Arrow Up">
+                  <path d="M25 0H7a7 7 0 0 0-7 7v18a7 7 0 0 0 7 7h18a7 7 0 0 0 7-7V7a7 7 0 0 0-7-7zm5 25a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5h18a5 5 0 0 1 5 5z" />
+                  <path d="M24 7H14v2h7.59L7.29 23.29 8.7 24.7 23 10.41V18h2V8a1 1 0 0 0-1-1z" />
+                </g>
+              </svg>
+              </Link>
+           
+          </div>
+
+          <p className="ml-5 text-xl mt-2">
+            Quick 15 minute recipes for bootcampers.
+          </p>
+
+          <div className="flex flex-row my-4 ml-5">
+            <a href="https://github.com/horiaomar25/bc15-w8-project-fully-stacked-bootcamp-kitchen">
+              <img
+                className="w-10 mr-6"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                alt="Github Icon"
+              />
+            </a>
+            <a href="https://bc15-w8-project-front-end-fully-stacked.vercel.app/">
+              <img
+                className="w-10"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_-KPutrb-_HGu1LeZF3gnY1vUIZ3bmnJyA&usqp=CAU"
+                alt="Website Icon"
+              />
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
   );
 };
 
-export default Projects;
+export default NewProjects;

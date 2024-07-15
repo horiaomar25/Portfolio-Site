@@ -1,7 +1,7 @@
 const Skills = () => {
 
-  // Define an array of technologies with their respective icons (image URLs)
-  const technologies = [
+   // Define an array of technologies with their respective icons (image URLs)
+   const technologies = [
     { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg", alt: "HTML5" },
     { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg", alt: "CSS3" },
     { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", alt: "JavaScript" },
