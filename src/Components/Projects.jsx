@@ -42,7 +42,7 @@ const NewProjects = () => {
           </p>
 
           <div className="flex flex-row my-4 ml-5">
-            <a href="https://github.com/MartiZu/LendLogic-app">
+            <a href="https://github.com/MartiZu/LendLogic-app" target="blank">
               <img
                 className="w-10 mr-6"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
@@ -95,14 +95,14 @@ const NewProjects = () => {
           </p>
 
           <div className="flex flex-row my-4 ml-5">
-            <a href="https://github.com/horiaomar25/edu-task">
+            <a href="https://github.com/horiaomar25/edu-task" target="blank">
               <img
                 className="w-10 mr-6"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                 alt="Github Icon"
               />
             </a>
-            <a href="https://edu-task-horias-projects-dc29575b.vercel.app/">
+            <a href="https://edu-task-horias-projects-dc29575b.vercel.app/" target="blank">
               <img
                 className="w-10"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_-KPutrb-_HGu1LeZF3gnY1vUIZ3bmnJyA&usqp=CAU"

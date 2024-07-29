@@ -18,14 +18,14 @@ const HeroSection = () => {
             Eager Learner, Passionate Developer
           </p>
           <div className="flex flex-row mb-4">
-            <a href="https://github.com/horiaomar25?tab=repositories">
+            <a href="https://github.com/horiaomar25?tab=repositories" target="blank">
               <img
                 className="w-10 mr-6"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                 alt="Linkedin"
               />
             </a>
-            <a href="https://www.linkedin.com/in/horia-omar/">
+            <a href="https://www.linkedin.com/in/horia-omar/" target="blank">
               <img
                 className="w-10"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
