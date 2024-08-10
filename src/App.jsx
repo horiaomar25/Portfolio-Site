@@ -7,6 +7,7 @@ import EduTask from "./routes/EduTask";
 import BootcampKitchen from "./routes/BootcampKitchen";
 import About from "./routes/About";
 import SkillsSection from "./routes/SkillsSection";
+import HistoricalFigures from "./routes/HistoricalFigures";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/lendlogic" element={<LendLogic />} />
           <Route path="/edutask" element={<EduTask />} />
+          <Route path="/historicalfigures" element={<HistoricalFigures />} />
           <Route path="/bootcampkitchen" element={<BootcampKitchen />} />
           <Route path="/About" element={<About />} />
           <Route path="/Skills" element={<SkillsSection />} />
