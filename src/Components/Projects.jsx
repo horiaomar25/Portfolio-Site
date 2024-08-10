@@ -202,7 +202,7 @@ const NewProjects = () => {
           </p>
 
           <div className="flex flex-row my-4 ml-5">
-            <a href="https://github.com/horiaomar25/edu-task" target="blank">
+            <a href="https://github.com/horiaomar25/Historical-Figures" target="blank">
               <img
                 className="w-10 mr-6"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
