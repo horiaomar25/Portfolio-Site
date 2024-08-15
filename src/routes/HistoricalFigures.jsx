@@ -95,7 +95,7 @@ const HistoricalFigures = () => {
                                     <strong>Technological Achievement:</strong>
                                     <ol className="list-decimal pl-4">
                                         <li className="mb-3">Utilized Next.js for the frontend, PostgreSQL for the database, and Node.js for the server environment to create a robust and scalable application.</li>
-                                        <li>Incorporated Playwright for end-to-end testing, ensuring the application's reliability and performance.</li>
+                                        <li>Incorporated Jest for component testing, ensuring the application's reliability and performance.</li>
                                     </ol>
                                 </li>
                             </ol>
