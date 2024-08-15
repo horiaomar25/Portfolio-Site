@@ -198,7 +198,7 @@ const NewProjects = () => {
           </div>
 
           <p className="ml-5 text-xl mt-2">
-            A task management tool for teaching assistants to keep track of their daily and weekly tasks.
+            Facts about Historical Figures. Quiz included.
           </p>
 
           <div className="flex flex-row my-4 ml-5">
