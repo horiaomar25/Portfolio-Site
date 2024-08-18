@@ -36,7 +36,8 @@ const HistoricalFigures = () => {
                 </div>
             </div>
         </div><section>
-                <h2 className="text-center text-4xl font-extrabold overflow-hidden">EduTask</h2>
+            {/* Historical Figures */}
+                <h2 className="text-center text-4xl font-extrabold overflow-hidden">Historical Figures</h2>
 
                 <div className="flex flex-col justify-center items-center mx-12">
                     <div className="border border-black rounded-md p-4 w-1/2 mt-4 shadow-lg">
