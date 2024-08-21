@@ -46,10 +46,10 @@ const NewNav = () => {
                  &times;
                </button>
                <li className='text-black text-8xl font-semibold' onClick={closeMenu}>
-                 <Link to="/" className='text-2xl'>Home</Link>
+                 <a href="/" className='text-2xl'>Home</a>
                </li>
                <li className='text-black font-semibold mt-8' onClick={closeMenu}>
-                 <Link to="/about" className='text-2xl'>About</Link>
+                 <a href="/about" className='text-2xl'>About</a>
                </li>
                <li className='text-black text-4xl font-semibold mt-8' onClick={closeMenu}>
                  <Link to="/skills" className='text-2xl'>Skills</Link>
