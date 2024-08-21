@@ -63,7 +63,7 @@ const NewNav = () => {
        </div>
 
        {/** Desktop Navigation */}
-       <a className="btn btn-ghost text-4xl text-white">H<span className='text-blue-600'>F</span></a>
+       <a className="btn btn-ghost text-4xl text-white font-extrabold">Horia.</a>
      </div>
      <div className="navbar-center hidden lg:flex">
        <ul className="menu menu-horizontal px-1">
