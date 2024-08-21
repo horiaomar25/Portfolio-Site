@@ -52,10 +52,10 @@ const NewNav = () => {
                  <Link to="/about" className='text-2xl'>About</Link>
                </li>
                <li className='text-black text-4xl font-semibold mt-8' onClick={closeMenu}>
-                 <Link to="/Skills" className='text-2xl'>Skills</Link>
+                 <Link to="/skills" className='text-2xl'>Skills</Link>
                </li>
                <li className='text-black text-4xl font-semibold mt-8' onClick={closeMenu}>
-                 <Link smooth to ="#projects" className='text-2xl'>Projects</Link>
+                 <HashLink smooth to ="#projects" className='text-2xl'>Projects</HashLink>
                </li>
              </ul>
            </div>
@@ -67,9 +67,10 @@ const NewNav = () => {
      </div>
      <div className="navbar-center hidden lg:flex">
        <ul className="menu menu-horizontal px-1">
-         <li className='text-white text-xl font-semibold hover:text-blue-600'><Link href="/">Home</Link></li>
-         <li className='text-white text-xl font-semibold hover:text-blue-600'><Link href="/search">Search</Link></li>
-         <li className='text-white text-xl font-semibold hover:text-blue-600'><Link href="/quiz">Quiz</Link></li>
+         <li className='text-white text-2xl font-semibold hover:text-blue-600'><Link to="/">Home</Link></li>
+         <li className='text-white text-2xl font-semibold hover:text-blue-600'><Link to="/about">About</Link></li>
+         <li className='text-white text-2xl font-semibold hover:text-blue-600'><Link to="/skills">Skills</Link></li>
+         <li className='text-white text-2xl font-semibold hover:text-blue-600'><HashLink smooth to="#projects">Projects</HashLink></li>
        </ul>
      </div>
      <div className="navbar-end">
