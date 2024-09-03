@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import edutask from "../assets/edutaskshot.png";
+import edutaskhome from "../assets/edutaskhome.png";
 import lendlogic from "../assets/lendlogic.png";
 import bootcampkitchen from "../assets/bootcampkitchen.png";
 import historicalfigures from "../assets/historicalfigures.png";
@@ -65,7 +65,7 @@ const NewProjects = () => {
           <div className="mockup-browser-toolbar"></div>
           <div className="bg-base-200 flex justify-center px-4 pt-16">
             <img
-              src={edutask}
+              src={edutaskhome}
               className="w-full border border-black rounded-lg"
               alt="EduTask"
             />

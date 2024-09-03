@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import edutask from "./../assets/edutaskshot.png";
+import edutaskhome from "./../assets/edutaskhome.png";
 import taskboard from "./../assets/taskboard.png";
 import dashboard from "./../assets/dashboard.png";
 
@@ -8,7 +8,7 @@ const EduTask = () => {
     <>
       <div className="carousel w-full mt-4">
         <div id="slide1" className="carousel-item relative w-full flex justify-center">
-          <img src={edutask} className="w-1/2 rounded-md border border-black" alt="EduTask" />
+          <img src={edutaskhome} className="w-1/2 rounded-md border border-black" alt="EduTask" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide3" className="btn btn-circle">❮</a>
             <a href="#slide2" className="btn btn-circle">❯</a>
