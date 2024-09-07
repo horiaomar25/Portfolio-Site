@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import edutaskhome from "./../assets/edutaskhome.png";
 import taskboard from "./../assets/taskboard.png";
-import dashboard from "./../assets/dashboard.png";
+import dashboard from './../assets/edutaskdashboard.png'
 
 const EduTask = () => {
   return (
