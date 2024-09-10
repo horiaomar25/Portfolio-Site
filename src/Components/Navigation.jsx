@@ -17,7 +17,7 @@ const NewNav = () => {
   };
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 border-b shadow-lg">
       <div className="navbar-start">
         <div className="dropdown">
           <div
@@ -66,14 +66,7 @@ const NewNav = () => {
                     Home
                   </Link>
                 </li>
-                <li
-                  className="text-black text-4xl font-semibold mt-8"
-                  onClick={closeMenu}
-                >
-                  <Link to="/about" className="text-2xl">
-                    About
-                  </Link>
-                </li>
+                
                 <li
                   className="text-black text-4xl font-semibold mt-8"
                   onClick={closeMenu}
@@ -101,7 +94,7 @@ const NewNav = () => {
      <div className="navbar-center hidden lg:flex">
        <ul className="menu menu-horizontal px-1">
          <li className='text-white text-2xl font-extrabold hover:text-turquoise hover:underline'><Link to="/">Home</Link></li>
-         <li className='text-white text-2xl font-extrabold hover:text-turquoise hover:underline'><Link to="/about">About</Link></li>
+  
          <li className='text-white text-2xl font-extrabold hover:text-turquoise hover:underline'><Link to="/skills">Skills</Link></li>
          <li className='text-white text-2xl font-extrabold hover:text-turquoise hover:underline'><HashLink smooth to="#projects">Projects</HashLink></li>
        </ul>

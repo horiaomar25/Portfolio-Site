@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import edutaskhome from "../assets/edutaskhome.png";
 import lendlogic from "../assets/lendlogic.png";
 import bootcampkitchen from "../assets/bootcampkitchen.png";
-import historicalfigures from "../assets/historicalfigures.png";
+import novastore from '../assets/novastore.png'
 
 const NewProjects = () => {
   return (
@@ -166,12 +166,12 @@ const NewProjects = () => {
         </article>  
         
 
-        {/*Card 4 - Historical Figures*/}
+        {/*Card 4 - NovaStore*/}
       <article className="flex flex-col justify-start items-start">
           <div className="mockup-browser-toolbar"></div>
           <div className="bg-base-200 flex justify-center px-4 pt-16">
             <img
-              src={historicalfigures}
+              src={novastore}
               className="w-full border border-black rounded-lg"
               alt="EduTask"
             />
@@ -179,7 +179,7 @@ const NewProjects = () => {
 
           <div className="flex flex-row justify-between items-center w-full">
             <h3 className="text-3xl overflow-hidden mt-4 ml-5 font-extrabold">
-              Historical Figures
+            NovaStore
             </h3>
             
             <Link to="/historicalfigures" className="ml-auto mr-4">
@@ -198,18 +198,18 @@ const NewProjects = () => {
           </div>
 
           <p className="ml-5 text-xl mt-2">
-            Facts about Historical Figures. Quiz included.
+           Eccomerce Store
           </p>
 
           <div className="flex flex-row my-4 ml-5">
-            <a href="https://github.com/horiaomar25/Historical-Figures" target="blank">
+            <a href="https://github.com/horiaomar25/NovaStore" target="blank">
               <img
                 className="w-10 mr-6"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
                 alt="Github Icon"
               />
             </a>
-            <a href="https://historical-figures.vercel.app/" target="blank">
+            <a href="https://nova-store-bay.vercel.app/" target="blank">
               <img
                 className="w-10"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_-KPutrb-_HGu1LeZF3gnY1vUIZ3bmnJyA&usqp=CAU"
