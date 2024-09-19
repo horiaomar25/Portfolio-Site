@@ -68,44 +68,34 @@ using in my project.
                             </p>
                         </div>
 
+                      
                         <div className="mt-4">
-                            <h3 className="text-2xl font-extrabold">Challenges</h3>
-                            <p className="text-sm lg:text-lg leading-relaxed">
-                                
-                               The Historical Figures from API Ninja was a good information, however it was lacking in images for the historical figures. I had to combined this with the Wiki API to search for the image of the historical figure.
-                               I used custom hooks to make 2 fetch requests to the API and then combined the data to display the information on the page. It was great learning experience.
-                            </p>
-                        </div>
+    <h3 className="text-2xl font-extrabold">What I Learned</h3>
+    <ol className="list-decimal pl-4 text-sm lg:text-lg leading-relaxed">
+        <li>
+            <strong>Separating Data and Logic:</strong>
+            <ol className="list-decimal pl-4">
+                <li className="mb-3">Defined data structures and types in separate TypeScript files (e.g., `Products.d.ts`). This approach facilitated easier management of component data and improved type safety, reducing errors during development.</li>
+                <li className="mb-3">Organized logic and state management to be more modular and reusable across components, enhancing the maintainability of the codebase.</li>
+            </ol>
+        </li>
+        <li className="mt-2">
+            <strong>Improving Logic and State Management:</strong>
+            <ol className="list-decimal pl-4">
+                <li className="mb-3">Enhanced understanding of using React hooks (e.g., `useState`, `useEffect`) for cleaner and more efficient state management.</li>
+                <li className="mb-3">Developed custom hooks for managing complex logic and multiple fetch requests, promoting code reuse and separation of concerns.</li>
+            </ol>
+        </li>
+        <li className="mt-2">
+            <strong>Technological Achievements:</strong>
+            <ol className="list-decimal pl-4">
+                <li className="mb-3">Successfully integrated TypeScript with React to manage and type-check data from DummyAPI, leading to a more robust and error-resistant frontend.</li>
+                <li className="mb-3">Implemented responsive design techniques to ensure the application provides a seamless user experience across various devices and screen sizes.</li>
+            </ol>
+        </li>
+    </ol>
+</div>
 
-                        <div className="mt-4">
-                            <h3 className="text-2xl font-extrabold">What I learnt</h3>
-                            <ol className="list-decimal pl-4 text-sm lg:text-lg leading-relaxed">
-                                <li>
-                                    <strong>Separating data and logic:</strong>
-                                    <ol className="list-decimal pl-4">
-                                        <li className="mb-3">I had to define the data that I fetched from the API in seperate file. This made it easier to deal when building my components as I could use Products.d.ts in my component to define the data I was using and avoid errors.
-                                        </li>
-                                        
-                                    </ol>
-                                    
-                                </li>
-                                <li className="mt-2">
-                                    <strong>Improving logic</strong>
-                                    <ol className="list-decimal pl-4">
-                                        <li className="mb-3">I learnt more about writing logic that it is cleaner when use State hook</li>
-                                        <li className="mb-3">Using custom hooks to make multiple fetch requests</li>
-                                        
-                                    </ol>
-                                </li>
-                                <li className="mt-2">
-                                    <strong>Technological Achievement:</strong>
-                                    <ol className="list-decimal pl-4">
-                                        <li className="mb-3">Utilized Typescript with React to deal with data from DummyAPI for the frontend.</li>
-                                       
-                                    </ol>
-                                </li>
-                            </ol>
-                        </div>
                     </div>
                 </div>
             </section></>
