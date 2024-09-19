@@ -17,7 +17,7 @@ const NewNav = () => {
   };
 
   return (
-    <div className="navbar bg-base-100 border-b shadow-lg">
+    <div className="navbar bg-base-100 ">
       <div className="navbar-start">
         <div className="dropdown">
           <div
