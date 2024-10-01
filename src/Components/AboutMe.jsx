@@ -12,7 +12,7 @@ const AboutMe = () => {
           <div className="md:w-7/12 mb-4 md:mb-0">
             <h2 className="text-4xl font-bold text-white mb-4 overflow-hidden">About.</h2>
             <p className="leading-loose text-gray-300 text-lg">
-            Hello, I'm Horia. I am a passionate Junior Developer with a background in full-stack development and a strong foundation in modern web technologies. Recently, I completed a coding bootcamp where I honed my skills in frameworks like React, Next.js, and libraries like TailwindCSS. With a love for problem-solving and creating intuitive digital experiencesWith a love for problem-solving and creating intuitive digital experiences, I am eager to contribute to impactful projects and collaborate within a dynamic team environment.
+            Hello, I'm Horia. I am a passionate Junior Developer with a background in full-stack development and a strong foundation in modern web technologies. Recently, I completed a coding bootcamp where I honed my skills in frameworks like React, Next.js, and libraries like TailwindCSS. With a love for problem-solving and creating intuitive digital experiences, I am eager to contribute to impactful projects and collaborate within a dynamic team environment.
       
               
               <br /><br />
