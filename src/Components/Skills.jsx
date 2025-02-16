@@ -16,6 +16,9 @@ const Skills = () => {
     { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg", alt: "Git" },
     { name: "Jest - Unit Testing", icon: "https://jestjs.io/img/jest.svg", alt: "Jest - Unit Testing" },
     { name: "PlayWright - E2E Testing", icon: "https://playwright.dev/img/playwright-logo.svg", alt: "PlayWright - E2E Testing" },
+    { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg", alt: "Docker" },
+    { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg", alt: "Java" },
+    { name: "Spring Boot", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg", alt: "Spring Boot" },
   ];
 
   // Render each technology dynamically
