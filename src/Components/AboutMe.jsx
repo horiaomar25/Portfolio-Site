@@ -34,7 +34,7 @@ const AboutMe = () => {
           {/* Why Tech Text */}
           <div className="md:w-7/12 mb-4 md:mb-0">
             <h2 className="text-2xl font-semibold text-white mb-2">Why Tech?</h2>
-            <p className="leading-loose text-gray-300">
+            <p className="leading-loose text-gray-300 text-lg">
               After working in education, I found tech to be an exciting and dynamic career that offers endless opportunities for growth and creativity. One of the things I love most about technology is its constantly evolving nature, which keeps me in a state of continuous learning. This resonates deeply with my passion for expanding my knowledge and staying on the cutting edge of the industry.
               <br /><br />
               In tech, you're not just solving abstract problems; you're building solutions that have real-world impacts, whether it's improving user experiences, optimizing processes, or creating tools that enhance people's everyday lives. The creative aspect of web development, where you can take an idea and turn it into a functional, engaging digital product, is incredibly fulfilling.
