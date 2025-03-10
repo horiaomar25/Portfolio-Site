@@ -16,7 +16,7 @@ const Footer = () => {
     <>
     <div >
         <footer style={{ footerStyle , textAlign:'center'}}>
-            © 2024 - Made by Horia
+            © 2025 - Made by Horia
             </footer>
     </div>
     </>

@@ -2,12 +2,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import Navigation from "./Components/Navigation";
 import LendLogic from "./routes/LendLogic";
+import NovaStore from "./routes/NovaStore";
+import HistoricalFigures from "./routes/HistoricalFigures";
 import "./App.css";
-import EduTask from "./routes/EduTask";
-import BootcampKitchen from "./routes/BootcampKitchen";
+
+
 
 import SkillsSection from "./routes/SkillsSection";
-import NovaStore from "./routes/NovaStore";
+
+
 
 function App() {
   return (
@@ -17,9 +20,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/lendlogic" element={<LendLogic />} />
-          <Route path="/edutask" element={<EduTask />} />
-          <Route path="/historicalfigures" element={<NovaStore />} />
-          <Route path="/bootcampkitchen" element={<BootcampKitchen />} />
+      
+          <Route path="/historicalfigures" element={<HistoricalFigures />} />
+          <Route path="/novastore" element={<NovaStore />} />
+
+    
       
           <Route path="/Skills" element={<SkillsSection />} />
 
