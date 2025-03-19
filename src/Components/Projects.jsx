@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-// import edutaskhome from "../assets/edutaskhome.png";
+import edutaskhome from "../assets/edutaskhome.png";
 import lendlogic from "../assets/lendlogic.png";
-import bootcampkitchen from "../assets/bootcampkitchen.png";
+
 import novastore from '../assets/novastore.png'
 import historicalfigures from "../assets/historicalfigures.png";
 
@@ -115,8 +115,8 @@ const NewProjects = () => {
           </div>
         </article>
 
-        {/* * Card 2 - EduTask */}
-        {/* <article className="flex flex-col justify-start items-start">
+      
+        <article className="flex flex-col justify-start items-start">
           <div className="mockup-browser-toolbar"></div>
           <div className="bg-base-200 flex justify-center px-4 pt-16">
             <img
@@ -166,7 +166,7 @@ const NewProjects = () => {
               />
             </a>
           </div>
-        </article> */}
+        </article> 
 
         {/** Card 3 - Bootcamp Kitchen */}
         {/* <article className="flex flex-col justify-start items-start">
@@ -218,7 +218,7 @@ const NewProjects = () => {
               />
             </a>
           </div>
-        </article>   */}
+        </article>  
         
 
         {/*Card 4 - NovaStore*/}

@@ -4,6 +4,7 @@ import Navigation from "./Components/Navigation";
 import LendLogic from "./routes/LendLogic";
 import NovaStore from "./routes/NovaStore";
 import HistoricalFigures from "./routes/HistoricalFigures";
+import EduTask from "./routes/EduTask"
 import "./App.css";
 
 
@@ -23,6 +24,7 @@ function App() {
       
           <Route path="/historicalfigures" element={<HistoricalFigures />} />
           <Route path="/novastore" element={<NovaStore />} />
+          <Route path="/edutask" element={<EduTask />} />
 
     
       
